@@ -1,0 +1,7 @@
+smsc_url = 'https://smsc.kz/sys/send.php'
+smsc_login = 'admin'
+smsc_password = 'admin'
+
+sms_text = 'Код для регистрации на workaus.kz'
+
+allowed_urls = ['http://127.0.0.1:3000', 'http://127.0.0.1:8090']

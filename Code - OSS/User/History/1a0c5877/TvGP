@@ -1,0 +1,11 @@
+Front url
+Auth url: 5000
+PS url
+PS port
+PS login
+PS db_name
+PS password
+Redis url
+Redis port
+
+ALLOWED_HOSTS = ''

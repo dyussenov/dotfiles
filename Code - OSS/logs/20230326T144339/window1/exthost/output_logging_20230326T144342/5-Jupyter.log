@@ -1,0 +1,10 @@
+Visual Studio Code (1.76.2, undefined, desktop)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.4.0.
+Workspace folder /home/abu/codequest/race-ms
+info 14:45:21.017: LSP Notebooks experiment is enabled
+info 14:45:21.252: Process Execution: > ~/codequest/race-ms/venv/bin/python -m pip list
+> ~/codequest/race-ms/venv/bin/python -m pip list
+info 17:49:03.564: Shutting down notebooks for ea44535d-b313-401c-b002-4b71bbe6962a
+info 17:49:03.564: Disposing HostJupyterExecution eb01f15e-5d65-4813-a1cf-4fed1b9490a4
+info 17:49:03.565: Disposing HostJupyterExecution eb01f15e-5d65-4813-a1cf-4fed1b9490a4

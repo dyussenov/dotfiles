@@ -1,0 +1,6 @@
+db_type = 'sqlite'
+db_path = 'sqlite:///./database.sqlite3'
+sms_text = 'Код для регистрации на workaus.kz\n'
+sms_host_url = 'https://smsc.kz/sys/send.php'
+
+allowed_urls = ['http://127.0.0.1:3000', 'http://127.0.0.1:8080']

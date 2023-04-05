@@ -1,0 +1,4 @@
+{"_id":"e07f0799-97a4-4912-961b-3e8db9753e1b","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","type":"open","timestamp":1679824504666}
+{"_id":"45ee0449-79d9-4a01-b8f4-c3d2ab428a00","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679824504683}
+{"_id":"c6236834-a79c-49a2-94d6-dbfd77766d5c","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"'asdf'","direction":"OUTGOING","type":"message","timestamp":1679824506492}
+{"_id":"9f6fa26a-2411-4628-9300-a05665cc5ff9","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","code":1006,"reason":"","type":"close","wasClean":false,"timestamp":1679824506497}

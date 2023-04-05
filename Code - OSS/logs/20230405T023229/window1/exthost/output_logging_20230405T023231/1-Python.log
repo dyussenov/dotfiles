@@ -1,0 +1,4 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+Python interpreter path: /bin/python
+Starting Jedi language server for blog_app.

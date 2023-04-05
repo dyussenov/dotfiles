@@ -1,0 +1,2 @@
+JWT_SECRET_KEY="e7c83a28f8b8d597afedf2134979ed8ae9f472d1"
+AUTH_CORS_ORIGINS="http://localhost:8080,http://localhost:8000"

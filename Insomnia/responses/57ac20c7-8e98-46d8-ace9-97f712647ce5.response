@@ -1,0 +1,6 @@
+{"_id":"3bd05355-8c5d-4e7c-8c21-a028f5c30935","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","type":"open","timestamp":1679824764731}
+{"_id":"58f3ee97-edb3-4bd8-9ce2-4b43294f87f4","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679824764776}
+{"_id":"7b7c844e-7697-4835-b8b6-9805cd8c16e8","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679824768546}
+{"_id":"710f819e-d36f-47ae-8b7a-26b9aae69c63","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\n\t\"text\": \"e\"\n}","direction":"OUTGOING","type":"message","timestamp":1679824771626}
+{"_id":"ee42f07c-f0e3-43fd-baee-20422726409f","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679824771633}
+{"_id":"b4de005f-c154-4cdb-8196-bfc0fd54d874","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","code":1012,"reason":"","type":"close","wasClean":true,"timestamp":1679824790529}

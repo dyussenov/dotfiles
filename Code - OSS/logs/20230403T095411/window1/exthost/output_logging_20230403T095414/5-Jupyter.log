@@ -1,0 +1,21 @@
+Visual Studio Code (1.76.2, undefined, desktop)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.4.1.
+Workspace folder /home/abu/heep-underflow
+info 11:44:16.871: LSP Notebooks experiment is enabled
+warn 11:44:16.972: Failed to get activated env vars with python /bin/python in 91ms
+info 11:44:16.986: Process Execution: > /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 11:44:17.029: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list
+info 11:44:17.073: Process Execution: > /bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+> /bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+error 11:44:17.109: interpreterPackages getPackageInformation, Class name = Kd, completed in 229ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/bin/python","sysPrefix":"/usr","displayPath":{"$mid":1,"fsPath":"/bin/python","path":"/bin/python","scheme":"file"},"envName":"","uri":{"$mid":1,"fsPath":"/bin/python","external":"file:///bin/python","path":"/bin/python","scheme":"file"},"displayName":"","envType":"Unknown","version":{"major":3,"minor":10,"patch":10,"raw":"3.10.10 (main, Mar  5 2023, 22:26:53) [GCC 12.2.1 20230201]"}}} [su [Error]: Module 'pip' not installed.
+	at au.execModule (/home/abu/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:7:27390)
+	at async Kd.getPackageInformation (/home/abu/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:7:18779)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
+info 17:30:05.008: Shutting down notebooks for 4f534156-0a3d-4d7e-9113-88f4a63dc1d1
+info 17:30:05.008: Disposing HostJupyterExecution 889b0d43-8b9e-4aaf-a67a-cd6070b414d0
+info 17:30:05.008: Disposing HostJupyterExecution 889b0d43-8b9e-4aaf-a67a-cd6070b414d0

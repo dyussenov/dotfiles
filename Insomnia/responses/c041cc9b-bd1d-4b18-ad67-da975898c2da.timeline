@@ -1,0 +1,67 @@
+[
+	{
+		"value": "Preparing request to http://127.0.0.1:8000/regex-race/lobby/",
+		"name": "Text",
+		"timestamp": 1679828236300
+	},
+	{
+		"value": "Current time is 2023-03-26T10:57:16.300Z",
+		"name": "Text",
+		"timestamp": 1679828236300
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1679828236300
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1679828236302
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1679828236302
+	},
+	{
+		"name": "Text",
+		"value": "Too old connection (477 seconds), disconnect it\n",
+		"timestamp": 1679828236302
+	},
+	{
+		"name": "Text",
+		"value": "Connection 18 seems to be dead!\n",
+		"timestamp": 1679828236302
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 18\n",
+		"timestamp": 1679828236302
+	},
+	{
+		"name": "Text",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1679828236302
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8000...\n",
+		"timestamp": 1679828236302
+	},
+	{
+		"name": "Text",
+		"value": "connect to 127.0.0.1 port 8000 failed: Connection refused\n",
+		"timestamp": 1679828236302
+	},
+	{
+		"name": "Text",
+		"value": "Failed to connect to 127.0.0.1 port 8000 after 0 ms: Connection refused\n",
+		"timestamp": 1679828236302
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 19\n",
+		"timestamp": 1679828236303
+	}
+]

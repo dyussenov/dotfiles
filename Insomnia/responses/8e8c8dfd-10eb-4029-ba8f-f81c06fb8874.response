@@ -1,0 +1,15 @@
+{"_id":"ed771249-e73a-4b00-a5f4-a80754140f34","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","type":"open","timestamp":1679828336190}
+{"_id":"2de110aa-1359-43f5-8959-7a58cf7cb840","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"qwer\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679828336203}
+{"_id":"ea62159d-9682-4286-88e8-6e6a055d8983","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679828360967}
+{"_id":"6624d651-72b2-44d1-8f7f-1326ab5e7783","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\n\t\"text\": \"e\"\n}","direction":"OUTGOING","type":"message","timestamp":1679828368935}
+{"_id":"ecee72e8-c19f-48f3-bd6f-fb17e9dd317b","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679828368939}
+{"_id":"0c0d9dff-77bb-40f9-aecd-d1edb915215a","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"qwer\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679828368939}
+{"_id":"2185d893-bdb4-44e9-9144-154ccb52b9aa","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679828371748}
+{"_id":"c3c11aca-070c-402e-9ce6-ee98b5447484","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679828371763}
+{"_id":"cc829e3d-52e4-42a1-8432-73ea6204df6d","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679828372481}
+{"_id":"b7ebb9d3-3ed4-483c-8646-1fca9870fa7f","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679828372483}
+{"_id":"1ab54d2b-95d2-4a51-bf31-77f3c78fbb98","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679828372687}
+{"_id":"a0d2c935-7a7f-4427-a196-bd720913751e","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679828372694}
+{"_id":"dc13fe2c-f241-4467-9c77-5a8968f278d4","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679828372830}
+{"_id":"d6ee4e8d-e03d-4874-8dd8-723efef87902","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679828372831}
+{"_id":"f0c8ff60-2c09-431a-9518-067a14a81dc3","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","code":1005,"reason":"","type":"close","wasClean":true,"timestamp":1679828402857}

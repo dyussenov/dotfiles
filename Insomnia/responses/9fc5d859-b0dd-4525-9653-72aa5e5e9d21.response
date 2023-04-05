@@ -1,0 +1,4 @@
+{"_id":"5bd13249-647d-46fe-b319-41d8e2003f9a","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","type":"open","timestamp":1679816638237}
+{"_id":"9cfd2ca9-3d6e-4d42-a05a-fcc2ae907461","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","data":"{\"creator\": \"qwer\", \"1\": \"qq\", \"2\": \"qq\", \"3\": \"qq\", \"4\": \"qq\", \"5\": \"qq\", \"6\": \"qq\", \"7\": \"maxim\"}","type":"message","direction":"INCOMING","timestamp":1679816638246}
+{"_id":"959b4181-192f-4951-a00c-2e60f0761c33","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","data":"{\"creator\": \"qwer\", \"1\": \"qq\", \"2\": \"qq\", \"3\": \"qq\", \"4\": \"qq\", \"5\": \"qq\", \"6\": \"qq\", \"7\": \"maxim\"}","type":"message","direction":"INCOMING","timestamp":1679816640950}
+{"_id":"7677f2b9-5ecf-4fb6-8e27-7a11f12ab827","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","code":1012,"reason":"","type":"close","wasClean":true,"timestamp":1679816650261}

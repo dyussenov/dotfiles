@@ -1,0 +1,139 @@
+[2023-03-26 15:13:20.001] [info]  [db] Initialized DB client
+[2023-03-26 15:13:20.105] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-26 15:13:20.109] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-26 15:13:20.540] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-26 15:13:20.664] [info]  {
+  workspaceData: {
+    activeWorkspace: {
+      _id: 'wrk_d22f0ae2dbf24734a371d68eb9758694',
+      type: 'Workspace',
+      parentId: 'proj_default-project',
+      modified: 1670604631381,
+      created: 1670604631381,
+      name: 'New Document',
+      description: '',
+      scope: 'design'
+    },
+    activeProject: {
+      _id: 'proj_default-project',
+      type: 'Project',
+      parentId: null,
+      modified: 1670604631248,
+      created: 1670604631248,
+      name: 'Insomnia',
+      remoteId: null
+    },
+    gitRepository: null,
+    activeWorkspaceMeta: {
+      _id: 'wrkm_ba5084c6f693453f935b5fc657de099c',
+      type: 'WorkspaceMeta',
+      parentId: 'wrk_d22f0ae2dbf24734a371d68eb9758694',
+      modified: 1679816642948,
+      created: 1670604631425,
+      activeActivity: 'debug',
+      activeEnvironmentId: null,
+      activeRequestId: 'ws-req_f1850cad7cf945e281057f2ebb398eab',
+      activeUnitTestSuiteId: 'uts_a79107140d9144659f646a5684d5f94f',
+      cachedGitLastAuthor: null,
+      cachedGitLastCommitTime: null,
+      cachedGitRepositoryBranch: null,
+      gitRepositoryId: null,
+      hasSeen: true,
+      paneHeight: 0.5,
+      paneWidth: 0.5,
+      sidebarFilter: '',
+      sidebarHidden: false,
+      sidebarWidth: 19,
+      pushSnapshotOnInitialize: false
+    }
+  }
+}
+[2023-03-26 15:13:20.817] [info]  [FileSystemDriver] Initialized in "/home/abu/.config/Insomnia/version-control"
+[2023-03-26 15:13:20.817] [info]  [sync] checking for collections which need to be moved into a remote project
+[2023-03-26 15:13:20.820] [info]  [FileSystemDriver] Initialized in "/home/abu/.config/Insomnia/version-control"
+[2023-03-26 15:13:54.897] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 15:13:55.064] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=500
+[2023-03-26 15:19:30.302] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 15:19:30.525] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 15:19:41.078] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 15:19:52.157] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:19:52.494] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=405
+[2023-03-26 15:20:16.061] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:20:16.302] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=405
+[2023-03-26 15:20:25.113] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:20:25.294] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=405
+[2023-03-26 15:21:26.803] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:21:26.994] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 15:21:31.532] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:21:31.784] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 15:36:28.867] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 15:36:29.149] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 15:36:36.028] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 15:36:42.510] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:36:42.813] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 15:46:31.942] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 15:46:32.248] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 15:46:39.051] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 15:46:49.687] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:46:49.974] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 15:50:57.217] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 15:50:57.409] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 15:51:02.060] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 15:51:02.828] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:51:03.036] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 15:59:10.874] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 15:59:11.070] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 15:59:15.857] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 15:59:16.271] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 15:59:16.552] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 16:24:22.492] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 16:24:22.785] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 16:24:29.358] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 16:24:52.481] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 16:24:52.832] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 16:29:13.962] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 16:29:14.225] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 16:29:19.157] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 16:29:19.784] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 16:29:20.002] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 16:49:18.882] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 16:49:19.212] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=500
+[2023-03-26 16:57:16.034] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 16:57:16.333] [info]  [network] Response failed req=req_5f263dd9569047b295764443f0f8198a err=Error: Couldn't connect to server
+[2023-03-26 16:57:27.799] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 16:57:28.174] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 16:57:33.510] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 16:57:54.210] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 16:57:54.528] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 16:59:50.964] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 16:59:51.273] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 16:59:57.239] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 16:59:58.056] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 16:59:58.325] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200

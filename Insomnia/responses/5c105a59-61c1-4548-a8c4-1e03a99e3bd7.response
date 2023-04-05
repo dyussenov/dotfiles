@@ -1,0 +1,8 @@
+{"_id":"47e3ece2-c05a-48ba-8ae9-b2901cae762f","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","type":"open","timestamp":1679824684663}
+{"_id":"336da78c-475e-4807-8223-912eca24741f","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\", \"1\": \"q\"}}","type":"message","direction":"INCOMING","timestamp":1679824684722}
+{"_id":"8cc06c79-8198-4751-b627-7363df2be82a","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\n\t\"text\": \"e\"\n}","direction":"OUTGOING","type":"message","timestamp":1679824685823}
+{"_id":"05d3adb8-5269-4ff3-ae82-8129cce84040","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679824685826}
+{"_id":"4c7c123c-2005-4768-a376-9c81c7de2ce7","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\"users\": {\"creator\": \"maxim\"}}","type":"message","direction":"INCOMING","timestamp":1679824699822}
+{"_id":"c170f31d-fcf8-4366-aa1a-6cad489e4d35","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"{\n\t\"text\": \"e\"\n}","direction":"OUTGOING","type":"message","timestamp":1679824704616}
+{"_id":"b7115241-e390-473e-b5a2-9b39bd9e64e1","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679824704635}
+{"_id":"2a37785f-2a87-4107-9e21-1c5a297baf93","requestId":"ws-req_7ae3c9c70e8d4d9a830d6f43375546e3","code":1012,"reason":"","type":"close","wasClean":true,"timestamp":1679824728312}

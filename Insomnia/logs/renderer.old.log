@@ -1,0 +1,87 @@
+[2023-03-26 11:15:17.005] [info]  [db] Initialized DB client
+[2023-03-26 11:15:17.199] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-26 11:15:17.204] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-26 11:15:17.704] [warn]  The vm module of Node.js is deprecated in the renderer process and will be removed.
+[2023-03-26 11:15:17.903] [info]  {
+  workspaceData: {
+    activeWorkspace: {
+      _id: 'wrk_d22f0ae2dbf24734a371d68eb9758694',
+      type: 'Workspace',
+      parentId: 'proj_default-project',
+      modified: 1670604631381,
+      created: 1670604631381,
+      name: 'New Document',
+      description: '',
+      scope: 'design'
+    },
+    activeProject: {
+      _id: 'proj_default-project',
+      type: 'Project',
+      parentId: null,
+      modified: 1670604631248,
+      created: 1670604631248,
+      name: 'Insomnia',
+      remoteId: null
+    },
+    gitRepository: null,
+    activeWorkspaceMeta: {
+      _id: 'wrkm_ba5084c6f693453f935b5fc657de099c',
+      type: 'WorkspaceMeta',
+      parentId: 'wrk_d22f0ae2dbf24734a371d68eb9758694',
+      modified: 1679791501516,
+      created: 1670604631425,
+      activeActivity: 'debug',
+      activeEnvironmentId: null,
+      activeRequestId: 'req_77fc3d7e13b446c79d1e2d355b254c90',
+      activeUnitTestSuiteId: 'uts_a79107140d9144659f646a5684d5f94f',
+      cachedGitLastAuthor: null,
+      cachedGitLastCommitTime: null,
+      cachedGitRepositoryBranch: null,
+      gitRepositoryId: null,
+      hasSeen: true,
+      paneHeight: 0.5,
+      paneWidth: 0.5,
+      sidebarFilter: '',
+      sidebarHidden: false,
+      sidebarWidth: 19,
+      pushSnapshotOnInitialize: false
+    }
+  }
+}
+[2023-03-26 11:15:18.115] [info]  [FileSystemDriver] Initialized in "/home/abu/.config/Insomnia/version-control"
+[2023-03-26 11:15:18.116] [info]  [sync] checking for collections which need to be moved into a remote project
+[2023-03-26 11:15:18.120] [info]  [FileSystemDriver] Initialized in "/home/abu/.config/Insomnia/version-control"
+[2023-03-26 11:15:25.751] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:15:26.136] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 11:15:30.872] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:15:31.228] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 11:17:04.962] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:17:05.260] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=500
+[2023-03-26 11:17:13.623] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:17:14.001] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 11:17:15.239] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:17:15.502] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 11:17:36.641] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:17:37.028] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 11:18:14.487] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:18:14.830] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=500
+[2023-03-26 11:19:12.151] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:19:12.311] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 11:19:13.401] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:19:13.620] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 11:19:14.347] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 11:19:14.539] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=200
+[2023-03-26 12:21:49.208] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 12:21:49.552] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=500
+[2023-03-26 12:22:10.306] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 12:22:10.621] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=500
+[2023-03-26 12:24:23.645] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 12:24:23.950] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200
+[2023-03-26 12:29:09.536] [error] Error: No importers found for file
+    at Zge (file:///opt/Insomnia/resources/app.asar/index.5bc8cfd3.js:80:42986)
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:6649
+    at async file:///opt/Insomnia/resources/app.asar/debug.cd1a565e.js:34:7020
+[2023-03-26 12:29:10.387] [info]  [network] Sending req=req_77fc3d7e13b446c79d1e2d355b254c90 env=null
+[2023-03-26 12:29:10.621] [info]  [network] Response succeeded req=req_77fc3d7e13b446c79d1e2d355b254c90 status=500
+[2023-03-26 12:29:20.636] [info]  [network] Sending req=req_5f263dd9569047b295764443f0f8198a env=null
+[2023-03-26 12:29:20.862] [info]  [network] Response succeeded req=req_5f263dd9569047b295764443f0f8198a status=200

@@ -1,0 +1,142 @@
+[2023-03-26 11:15:14.571] [info]  Running version 2023.1.0
+[2023-03-26 11:15:14.625] [error] [electron client protocol] FAILED to set default protocol 'insomnia://'
+[2023-03-26 11:15:14.666] [info]  [electron client protocol] the current executable is not the default protocol for 'insomnia://'
+[2023-03-26 11:15:14.747] [info]  [electron client protocol] the default application set for 'insomnia://' is 'insomnia.desktop
+'
+[2023-03-26 11:15:15.006] [info]  [fix] Running database repairs
+[2023-03-26 11:15:15.151] [info]  [db] Initialized DB at /home/abu/.config/Insomnia/insomnia.$TYPE.db
+[2023-03-26 11:15:15.152] [info]  [db] Init responses DB
+[2023-03-26 11:15:15.152] [info]  [db] Init websocket-responses DB
+[2023-03-26 11:15:15.181] [info]  [localstorage] Initialized at /home/abu/.config/Insomnia/localStorage
+[2023-03-26 11:15:15.359] [info]  [main] Loading file:///opt/Insomnia/resources/app.asar/index.html
+[2023-03-26 11:15:15.890] [info]  [updater] Updater not running platform=linux dev=false
+[2023-03-26 11:15:19.036] [info]  [main] Window ready, handling command line arguments [ '/opt/Insomnia/insomnia' ]
+[2023-03-26 11:15:26.404] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/d9bca2cc-f4dd-44b7-bac9-a2d2f45d651f.response
+[2023-03-26 11:15:26.417] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/cb178dc2-4833-4291-84f1-7a28cec795a7.timeline
+[2023-03-26 11:15:31.435] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/a2b5c104-ae52-4b43-aa23-1ac5a28fa8a0.response
+[2023-03-26 11:15:31.436] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/de057ecf-00b8-45fd-a155-164376520572.timeline
+[2023-03-26 11:17:05.524] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/78f67d73-697f-4af3-b021-fc3aec8cd7fe.response
+[2023-03-26 11:17:05.525] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/0fbb15d6-f456-475f-9152-e776b7de4a82.timeline
+[2023-03-26 11:17:14.191] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/9b9c6cba-200d-4f74-b2a4-18178911c5db.response
+[2023-03-26 11:17:14.193] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/f62d5868-ed55-4380-9e31-71b6d7579277.timeline
+[2023-03-26 11:17:15.658] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/2a2e4c7e-1c29-4731-97b7-853eee840eff.response
+[2023-03-26 11:17:15.661] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/6884a291-853b-4765-9fc1-1eaa9e624e2a.timeline
+[2023-03-26 11:17:37.164] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/5f47b749-419f-4472-a9eb-b3e6d3604a06.response
+[2023-03-26 11:17:37.164] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/bd26620c-b990-4713-a01b-b6c2965ef7dd.timeline
+[2023-03-26 11:18:14.990] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/27524814-dfee-45f0-a524-145c6cb4bc6e.timeline
+[2023-03-26 11:18:14.990] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/a80a5879-6c50-4d02-8ef7-04feb6f6963c.response
+[2023-03-26 11:19:12.384] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/f54010ce-4e4c-4517-9384-d06c28a9b35a.timeline
+[2023-03-26 11:19:12.385] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/ef13ea79-fcea-4563-a7e9-ceaca4ad486c.response
+[2023-03-26 11:19:13.692] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/d1efbb65-43aa-45e9-a465-b501e4e980a3.response
+[2023-03-26 11:19:13.693] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/2fcf78a8-a228-4741-a7f9-14c293f81f2c.timeline
+[2023-03-26 11:19:14.601] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/5185b308-ea3c-4f6c-948e-35620bfb2562.response
+[2023-03-26 11:19:14.604] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/ea452bce-496d-4bdd-ac80-867772a0f7c5.timeline
+[2023-03-26 11:38:08.372] [error] Error from remote: EPROTO Error: write EPROTO 532644104584:error:100000f7:SSL routines:OPENSSL_internal:WRONG_VERSION_NUMBER:../../third_party/boringssl/src/ssl/tls_record.cc:231:
+
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)
+[2023-03-26 11:38:21.322] [error] unhandled error: SyntaxError: Invalid URL: 127.0.0.1:8000/qqqqq/ws
+    at initAsClient (/opt/Insomnia/resources/app.asar/main.min.js:23191:17)
+    at new WebSocket2 (/opt/Insomnia/resources/app.asar/main.min.js:22875:11)
+    at openWebSocketConnection (/opt/Insomnia/resources/app.asar/main.min.js:41341:16)
+    at async node:electron/js2c/browser_init:2:97558
+[2023-03-26 11:41:19.111] [error] Error from remote: EPROTO Error: write EPROTO 532644104584:error:100000f7:SSL routines:OPENSSL_internal:WRONG_VERSION_NUMBER:../../third_party/boringssl/src/ssl/tls_record.cc:231:
+
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)
+[2023-03-26 11:45:38.415] [info]  Message sent
+[2023-03-26 11:47:19.861] [info]  Message sent
+[2023-03-26 11:47:31.872] [info]  Message sent
+[2023-03-26 11:47:35.635] [info]  Message sent
+[2023-03-26 11:47:37.976] [info]  Message sent
+[2023-03-26 11:47:38.602] [info]  Message sent
+[2023-03-26 11:47:38.741] [info]  Message sent
+[2023-03-26 11:47:53.855] [info]  Message sent
+[2023-03-26 11:48:16.822] [info]  Message sent
+[2023-03-26 11:48:18.799] [info]  Message sent
+[2023-03-26 11:48:20.829] [info]  Message sent
+[2023-03-26 11:55:00.827] [error] Error: The socket was closed while data was being compressed
+    at /opt/Insomnia/resources/app.asar/main.min.js:22456:25
+    at /opt/Insomnia/resources/app.asar/main.min.js:21475:13
+    at PerMessageDeflate.cleanup (/opt/Insomnia/resources/app.asar/main.min.js:21368:13)
+    at WebSocket2.emitClose (/opt/Insomnia/resources/app.asar/main.min.js:22959:61)
+    at Socket.socketOnClose (/opt/Insomnia/resources/app.asar/main.min.js:23514:19)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at TCP.<anonymous> (node:net:757:14)
+[2023-03-26 11:55:00.861] [info]  [response] Delete body 
+[2023-03-26 11:55:00.862] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_301975f51db84272b9ab4341b706db9a.timeline
+[2023-03-26 12:03:27.434] [info]  [response] Delete body 
+[2023-03-26 12:03:27.435] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_8a3e3d73a49944579f66fef214be015b.timeline
+[2023-03-26 12:03:55.514] [info]  [response] Delete body 
+[2023-03-26 12:03:55.515] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_74f61e2b88a742ed93bba4d009d14448.timeline
+[2023-03-26 12:04:19.937] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/4ddfb138-e76f-4b80-9f37-72fc6f677813.response
+[2023-03-26 12:04:19.937] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_d07e878f02144a8a95c2b8662ce4e289.timeline
+[2023-03-26 12:04:22.862] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/05c7f052-6142-41cc-8bb3-b2ca97601f13.response
+[2023-03-26 12:04:22.862] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_f7c3df0367d14e8c94e0170baae2eb83.timeline
+[2023-03-26 12:05:02.777] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/81b6ebfb-8425-4856-8260-bd55c3f42eb6.response
+[2023-03-26 12:05:02.778] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_8948a3e95c6c4eecabe515e438881cbb.timeline
+[2023-03-26 12:05:23.606] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/a840bb0a-438e-42ec-b031-1de910a4bd75.response
+[2023-03-26 12:05:23.607] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_30b0893656b44215ba2ed7f1ab975f83.timeline
+[2023-03-26 12:06:02.359] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/9269f675-8577-4cb6-a65b-f88e1aa087bd.response
+[2023-03-26 12:06:02.360] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_ce7e76e856514acd87386f6481570c86.timeline
+[2023-03-26 12:06:40.078] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/99c641e3-44f3-4b79-919c-ce891a9dafb9.response
+[2023-03-26 12:06:40.079] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_df7da0aef4544b56b07df9b874b147d5.timeline
+[2023-03-26 12:06:43.544] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/736fbb65-9141-4037-a12d-0fabc5b6154a.response
+[2023-03-26 12:06:43.546] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_0fc6f18904c44b5490c2cae510c2afa0.timeline
+[2023-03-26 12:06:48.302] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/196f5751-6ca7-4f6d-9718-d4db9e96dba8.response
+[2023-03-26 12:06:48.305] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_2e5381ad9e684c2c9ecc91cafb52cb34.timeline
+[2023-03-26 12:07:06.266] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/2fd486d2-2d4d-4e18-bda6-078db24b8548.response
+[2023-03-26 12:07:06.266] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_24361260cd3144fbbf14f4069f367174.timeline
+[2023-03-26 12:07:41.152] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/b24649c6-b1e9-4de2-b87c-d130fcdf7f7e.response
+[2023-03-26 12:07:41.153] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_12ec0c3dc9a14878bfb4acd903b99d07.timeline
+[2023-03-26 12:08:54.242] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/6e880390-efdf-4d3a-929e-e371fe807fcf.response
+[2023-03-26 12:08:54.244] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_d8dc68d5945747269d1627422aa69b16.timeline
+[2023-03-26 12:12:34.739] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/083139ba-5dd8-43d5-b146-f35434a0e964.response
+[2023-03-26 12:12:34.742] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_67e22af075884eb98bbd347349db79f6.timeline
+[2023-03-26 12:12:46.989] [info]  Message sent
+[2023-03-26 12:14:51.590] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/f10497ba-5fff-4ef8-9e70-13df39026de5.response
+[2023-03-26 12:14:51.590] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_2314482c900c48d5ada8ddef2e8907c2.timeline
+[2023-03-26 12:15:05.457] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/b72d29d0-9a78-4697-ac73-21f787d03996.response
+[2023-03-26 12:15:05.460] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_158b7b09ca3f42d6804af10801509b13.timeline
+[2023-03-26 12:15:38.913] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/8e49809d-5325-4876-8195-1c8d81f88160.response
+[2023-03-26 12:15:38.915] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_c51fa719b6ca4eafb12ed38904e24d06.timeline
+[2023-03-26 12:21:49.733] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/b2186774-25ed-47da-8c17-aa4e94aac2f3.response
+[2023-03-26 12:21:49.734] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/a60b5c58-b34f-470d-a334-384962b46e20.timeline
+[2023-03-26 12:22:10.873] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/f99e86da-7345-4078-aba9-c81703fa8a4d.response
+[2023-03-26 12:22:10.880] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/16883ae0-9be4-4200-adc7-544a5042caf9.timeline
+[2023-03-26 12:24:24.126] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/27ba0bd1-fadd-46f5-84a6-ab7ff5fd56d5.response
+[2023-03-26 12:24:24.126] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/621aa929-6e00-4822-b0f1-7b12ce56fcbd.timeline
+[2023-03-26 12:25:54.516] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/87c75426-aeb2-4135-b2e5-5d43e559c6a5.response
+[2023-03-26 12:25:54.516] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_c0f65bb7cd9a45fba134a7541c9c5444.timeline
+[2023-03-26 12:28:34.273] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/e4b310dd-3661-450b-9412-b955c030fb3b.response
+[2023-03-26 12:28:34.274] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_d7f63594cef94600ac7ab9d52af7389f.timeline
+[2023-03-26 12:29:10.773] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/1f2fa159-1b6e-419d-8ba7-bb5373c03dcd.timeline
+[2023-03-26 12:29:10.774] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/ed86cb3f-797e-4299-98c9-760d550c0f95.response
+[2023-03-26 12:29:21.002] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/f9330955-ce79-49e2-9174-4842f580c6ac.timeline
+[2023-03-26 12:29:21.002] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/8a3ff816-74b0-416c-808b-92304ae0937a.response
+[2023-03-26 12:29:28.702] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/885d525d-41fd-48e9-98ed-323f44f77245.response
+[2023-03-26 12:29:28.713] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_b0ba42d642e446d381b67eaade88204b.timeline
+[2023-03-26 12:29:58.961] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/57f2e351-8611-4ae9-b166-44c3a7e8c302.response
+[2023-03-26 12:29:58.962] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_b614f7716f364e588b3c18a035bbbc7b.timeline
+[2023-03-26 12:52:16.975] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/c54515d2-b4a7-4044-bad1-ef329313a53e.response
+[2023-03-26 12:52:16.975] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_7f7f27ec82764cfda2e8dfa911eba36b.timeline
+[2023-03-26 13:27:37.695] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/0a5654f3-f5ff-4ae0-8fec-13fe8fb9d15c.response
+[2023-03-26 13:27:37.696] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_f4f6df12787d4c638aaf013b9399197d.timeline
+[2023-03-26 13:28:07.327] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/d3da06ed-c78e-4628-8ae1-882f8a0dee98.response
+[2023-03-26 13:28:07.327] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_50d22a0087aa49be87f525ae36ee5a58.timeline
+[2023-03-26 13:28:53.805] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/778d8836-b0a1-4105-8c0d-4b2a5452bf2b.response
+[2023-03-26 13:28:53.810] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_da5f346eb80541a7b120fcd828504e6e.timeline
+[2023-03-26 13:29:34.074] [info]  Message sent
+[2023-03-26 13:29:35.813] [info]  Message sent
+[2023-03-26 13:29:36.487] [info]  Message sent
+[2023-03-26 13:31:01.041] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/815d4262-ec83-4a5b-9d07-cdf53dc6d4b5.response
+[2023-03-26 13:31:01.042] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_461f2c84e0a34961b671c5992efc2685.timeline
+[2023-03-26 13:38:13.546] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/34aae2d6-926c-4a4d-bc1c-66e25d5c0454.response
+[2023-03-26 13:38:13.547] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_cf879c1a942945338e544b37fa36fe8f.timeline
+[2023-03-26 13:38:49.466] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/5d56140a-3d59-4869-bca3-119b3bc0ce8a.response
+[2023-03-26 13:38:49.467] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_cb00326f34cf4b9eab6a150da860aad5.timeline
+[2023-03-26 13:42:22.612] [warn]  Connection still open to ws://localhost:8000/lobby/ipeYW/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgwMDBiN2VkLTVlZWItNDIzNy05YjU0LTE2MDk4ZGY4ZWM0MSIsInVzZXJuYW1lIjoibWF4aW0iLCJleHAiOjE2Nzk4MTgyNTgsInRva2VuX3R5cGUiOiJhY2Nlc3MifQ.WWxx8-tLlfpqAWbAoxhEYZmnprfp3lqVD9HdNiLC4ys
+[2023-03-26 13:42:36.611] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/7401a3df-2a4c-49ee-8a1e-aab8c867eca2.response
+[2023-03-26 13:42:36.612] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_de218367fbea498e867d97f22ae4297c.timeline
+[2023-03-26 13:44:01.004] [info]  [response] Delete body /home/abu/.config/Insomnia/responses/da7fa88f-1940-493c-ab07-6a31e1bcf507.response
+[2023-03-26 13:44:01.005] [info]  [response] Delete timeline /home/abu/.config/Insomnia/responses/res_21ea584f541b4181af6856ec80f3e4b3.timeline
+[2023-03-26 14:15:15.949] [info]  [updater] Updater not running platform=linux dev=false

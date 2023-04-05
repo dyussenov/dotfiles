@@ -1,0 +1,18 @@
+2023-04-04 00:42:52.495 [info] Extension host with pid 140926 started
+2023-04-04 00:42:52.495 [info] Skipping acquiring lock for /home/abu/.config/Code - OSS/User/workspaceStorage/1da16d24a88f38838ca3bd2eadf49371.
+2023-04-04 00:42:52.919 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-04-04 00:42:52.920 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-04 00:42:52.920 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2023-04-04 00:42:52.920 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-04 00:42:52.921 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-04 00:42:53.974 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-04 00:42:53.975 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-04 00:42:53.975 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-04 00:42:54.274 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-04-04 00:42:54.358 [info] Eager extensions activated
+2023-04-04 00:42:54.799 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-04 00:42:54.803 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-04 00:43:19.257 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-04-04 00:43:45.939 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-04-05 02:19:15.588 [info] Extension host terminating: received terminate message from renderer
+2023-04-05 02:19:15.635 [info] Extension host with pid 140926 exiting with code 0

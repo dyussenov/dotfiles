@@ -1,0 +1,8 @@
+{"value":"WebSocket connection established","name":"Text","timestamp":1679824761471}
+{"value":"Preparing request to ws://localhost:8000/lobby/mTCnW/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgwMDBiN2VkLTVlZWItNDIzNy05YjU0LTE2MDk4ZGY4ZWM0MSIsInVzZXJuYW1lIjoibWF4aW0iLCJleHAiOjE2Nzk4MjU2ODksInRva2VuX3R5cGUiOiJhY2Nlc3MifQ.XiCtUmJT9kqahnFnhPCBdYWlpfMGcQF4lNScOcd-W14","name":"Text","timestamp":1679824761471}
+{"value":"Current time is 2023-03-26T09:59:21.471Z","name":"Text","timestamp":1679824761471}
+{"value":"Using HTTP 1.1","name":"Text","timestamp":1679824761471}
+{"value":"GET /lobby/mTCnW/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgwMDBiN2VkLTVlZWItNDIzNy05YjU0LTE2MDk4ZGY4ZWM0MSIsInVzZXJuYW1lIjoibWF4aW0iLCJleHAiOjE2Nzk4MjU2ODksInRva2VuX3R5cGUiOiJhY2Nlc3MifQ.XiCtUmJT9kqahnFnhPCBdYWlpfMGcQF4lNScOcd-W14 HTTP/1.1\r\nSec-WebSocket-Version: 13\r\nSec-WebSocket-Key: Ak9anxNmnxsabDYZkdSUog==\r\nConnection: Upgrade\r\nUpgrade: websocket\r\nSec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\nHost: localhost:8000\r\n\r\n","name":"HeaderOut","timestamp":1679824761471}
+{"value":"HTTP/1.1 101 Switching Protocols","name":"HeaderIn","timestamp":1679824761471}
+{"value":"upgrade: websocket\nconnection: Upgrade\nsec-websocket-accept: lyWD7FonZ3WJopFg+3Z4SScyKVU=\nsec-websocket-extensions: permessage-deflate\ndate: Sun, 26 Mar 2023 09:59:20 GMT\nserver: uvicorn","name":"HeaderIn","timestamp":1679824761471}
+{"value":"Closing connection with code 1012","name":"Text","timestamp":1679824790522}

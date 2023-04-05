@@ -1,0 +1,8 @@
+ALLOWED_HOSTS = "http://127.0.0.1:8080,http://127.0.0.1:8000"
+PS_URL = "23"
+PS_PORT = "2342"
+PS_LOGIN = "234"
+PS_DB_NAME = "asdf"
+PS_PASSWORD = "fsdf"
+REDIS_URL = "adsf"
+REDIS_PORT = "sfe"

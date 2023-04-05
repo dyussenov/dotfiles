@@ -1,0 +1,92 @@
+[
+	{
+		"value": "Preparing request to http://127.0.0.1:8000/regex-race/lobby/",
+		"name": "Text",
+		"timestamp": 1679828248115
+	},
+	{
+		"value": "Current time is 2023-03-26T10:57:28.115Z",
+		"name": "Text",
+		"timestamp": 1679828248115
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1679828248115
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1679828248116
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1679828248117
+	},
+	{
+		"name": "Text",
+		"value": "Hostname 127.0.0.1 was found in DNS cache\n",
+		"timestamp": 1679828248117
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8000...\n",
+		"timestamp": 1679828248117
+	},
+	{
+		"name": "Text",
+		"value": "Connected to 127.0.0.1 (127.0.0.1) port 8000 (#20)\n",
+		"timestamp": 1679828248117
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /regex-race/lobby/ HTTP/1.1\r\nHost: 127.0.0.1:8000\r\nUser-Agent: insomnia/2023.1.0\r\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjM2ZWNmZjYyLTg4MGYtNGNhOS1iYjYwLTVjYWFjNzM0ODg3OSIsInVzZXJuYW1lIjoicXdlciIsImV4cCI6MTY3OTgzMDAyOSwidG9rZW5fdHlwZSI6ImFjY2VzcyJ9.X7ZPQA8UaWxg0_wpQ58L9zESEsGDM0Q8rvwl7PWZQkI\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 0\r\n\r\n",
+		"timestamp": 1679828248117
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1679828248155
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1679828248155
+	},
+	{
+		"name": "HeaderIn",
+		"value": "date: Sun, 26 Mar 2023 10:57:27 GMT\r\n",
+		"timestamp": 1679828248155
+	},
+	{
+		"name": "HeaderIn",
+		"value": "server: uvicorn\r\n",
+		"timestamp": 1679828248155
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-length: 130\r\n",
+		"timestamp": 1679828248155
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-type: application/json\r\n",
+		"timestamp": 1679828248155
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1679828248155
+	},
+	{
+		"name": "Text",
+		"value": "Received 130 B chunk",
+		"timestamp": 1679828248156
+	},
+	{
+		"name": "Text",
+		"value": "Connection #20 to host 127.0.0.1 left intact\n",
+		"timestamp": 1679828248156
+	}
+]

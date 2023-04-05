@@ -1,0 +1,123 @@
+2023-03-26 14:43:42.187 [info] Extension host with pid 6466 started
+2023-03-26 14:43:42.187 [info] Skipping acquiring lock for /home/abu/.config/Code - OSS/User/workspaceStorage/206e255acb1e816cf11fdc13d5f6349b.
+2023-03-26 14:43:42.303 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-26 14:43:42.304 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-26 14:43:42.329 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2023-03-26 14:43:42.508 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-26 14:43:42.509 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-26 14:43:42.694 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: true, activationEvent: 'workspaceContains:*.py'
+2023-03-26 14:43:42.727 [info] Eager extensions activated
+2023-03-26 14:43:42.790 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-26 14:43:42.790 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-26 14:44:07.057 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-26 14:44:32.126 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-03-26 14:45:09.746 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-03-26 14:45:20.197 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-03-26 14:45:21.147 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-03-26 15:09:01.626 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-26 15:09:01.627 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-26 15:09:01.628 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-26 15:11:08.531 [error] [ms-python.python] provider FAILED
+2023-03-26 15:11:08.531 [error] Error: ValueError: `column` parameter (11) is not in a valid range (0-10) for line 32 ('    if lob\n').
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 15:34:29.598 [error] [ms-python.python] provider FAILED
+2023-03-26 15:34:29.598 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 15:34:30.165 [error] [ms-python.python] provider FAILED
+2023-03-26 15:34:30.165 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 15:34:40.034 [error] [ms-python.python] provider FAILED
+2023-03-26 15:34:40.034 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 15:59:00.685 [error] [ms-python.python] provider FAILED
+2023-03-26 15:59:00.685 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:23:06.947 [error] [ms-python.python] provider FAILED
+2023-03-26 16:23:06.947 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:23:07.514 [error] [ms-python.python] provider FAILED
+2023-03-26 16:23:07.514 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:23:07.975 [error] [ms-python.python] provider FAILED
+2023-03-26 16:23:07.975 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:23:09.021 [error] [ms-python.python] provider FAILED
+2023-03-26 16:23:09.022 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:28:06.195 [error] [ms-python.python] provider FAILED
+2023-03-26 16:28:06.195 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:28:06.825 [error] [ms-python.python] provider FAILED
+2023-03-26 16:28:06.826 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:28:07.465 [error] [ms-python.python] provider FAILED
+2023-03-26 16:28:07.465 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:28:08.542 [error] [ms-python.python] provider FAILED
+2023-03-26 16:28:08.543 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:46:57.728 [error] [ms-python.python] provider FAILED
+2023-03-26 16:46:57.728 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:48:53.306 [error] [ms-python.python] provider FAILED
+2023-03-26 16:48:53.306 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:48:54.154 [error] [ms-python.python] provider FAILED
+2023-03-26 16:48:54.155 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:48:56.074 [error] [ms-python.python] provider FAILED
+2023-03-26 16:48:56.074 [error] Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 17:49:03.528 [info] Extension host terminating: received terminate message from renderer
+2023-03-26 17:49:03.650 [info] Extension host with pid 6466 exiting with code 0

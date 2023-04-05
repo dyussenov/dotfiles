@@ -1,0 +1,7 @@
+sendpulse_url = 'https://api.sendpulse.com/'
+client_id = 'StepanZ'
+client_secret = 'Rcoxyk148'
+
+sms_text = 'Код для регистрации на workaus.kz'
+
+allowed_urls = ['http://127.0.0.1:3000', 'http://127.0.0.1:8000']

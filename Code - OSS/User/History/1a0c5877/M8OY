@@ -1,0 +1,4 @@
+ALLOWED_HOSTS = "http://127.0.0.1:8080,http://127.0.0.1:8000"
+REDIS_URL = "adsf"
+REDIS_PORT = "sfe"
+JWT_SECRET_KEY = "e7c83a28f8b8d597afedf2134979ed8ae9f472d1"

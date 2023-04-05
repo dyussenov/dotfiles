@@ -1,0 +1,24 @@
+2023-04-05 13:56:38.707 [info] Log level: Info
+2023-04-05 13:56:38.707 [info] Validating found git in: "git"
+2023-04-05 13:56:38.707 [info] Using git "" from "git"
+2023-04-05 13:56:38.707 [info] > git rev-parse --show-toplevel [87ms]
+2023-04-05 13:56:38.707 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-04-05 13:56:38.707 [info] Open repository: /home/abu/python-projects/myblog
+2023-04-05 13:56:38.707 [info] > git config --get commit.template [46ms]
+2023-04-05 13:56:38.707 [info] > git rev-parse --show-toplevel [69ms]
+2023-04-05 13:56:38.707 [info] > git rev-parse --show-toplevel [140ms]
+2023-04-05 13:56:38.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [79ms]
+2023-04-05 13:56:38.707 [info] > git status -z -uall [25ms]
+2023-04-05 13:56:38.707 [info] > git rev-parse --show-toplevel [84ms]
+2023-04-05 13:56:38.715 [info] > git rev-parse --show-toplevel [27ms]
+2023-04-05 13:56:38.815 [info] > git config --get commit.template [39ms]
+2023-04-05 13:56:38.838 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [27ms]
+2023-04-05 13:56:38.892 [info] > git status -z -uall [36ms]
+2023-04-05 13:56:38.982 [info] > git check-ignore -v -z --stdin [32ms]
+2023-04-05 13:56:40.248 [info] > git show --textconv :blog/blog_app/views.py [36ms]
+2023-04-05 13:56:40.250 [info] > git ls-files --stage -- /home/abu/python-projects/myblog/blog/blog_app/views.py [28ms]
+2023-04-05 13:56:40.261 [info] > git cat-file -s f64d1895efd4eaaa8df69a1c22e847919eafe0af [2ms]
+2023-04-05 13:58:58.653 [info] > git check-ignore -v -z --stdin [4ms]
+2023-04-05 13:59:03.477 [info] > git show --textconv :blog/blog_app/models.py [16ms]
+2023-04-05 13:59:03.478 [info] > git ls-files --stage -- /home/abu/python-projects/myblog/blog/blog_app/models.py [5ms]
+2023-04-05 13:59:03.491 [info] > git cat-file -s e4c84cdf2a60f3700af09c122af334bd41080f39 [5ms]

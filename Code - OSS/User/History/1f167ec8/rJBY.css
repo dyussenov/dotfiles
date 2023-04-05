@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.resizing-btn{
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7d60fc;
+    color: white;
+    border-radius: 3px;
+}
+
+.resizing-btn:hover{
+    margin-top: 0;
+    /*width: 200px;*/
+    transition: all 1s ease-in-out;
+}

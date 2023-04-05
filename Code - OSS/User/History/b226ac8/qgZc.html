@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %} Questions {% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between">
+    <h2 class="mb-4">{{ cat_selected.title }} questions</h2>
+    <div class="btn-group fixed-height" role="group" aria-label="Basic checkbox toggle button group">
+      <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btncheck1">Newest</label>
+
+      <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btncheck2">Unanswered</label>
+
+      <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+      <label class="btn btn-outline-primary" for="btncheck3">Bountied</label>
+    </div>
+</div>
+
+
+  {% for q in questions%}
+<div class="card">
+  <div class="card-header">
+    <h3>{{ q.title }}</h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">{{ q.body }}</p>
+    <div class="d-flex justify-content-between align-items-end">
+      <a href="{{ q.get_absolute_url }}" class="btn btn-primary">Go to answers</a>
+      <p class="fs-6 text-secondary mb-0"><i class="bi bi-clock"></i> {{ q.time_create }} <i class="bi bi-person"></i> {{ q.author }}</p>
+    </div>
+  </div>
+</div>
+<hr>
+  {% endfor %}
+
+  <div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        {% endif %}
+
+        <span class="current">
+            Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+        </span>
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">next</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+        {% endif %}
+    </span>
+</div>
+
+
+
+<style>
+  .fixed-height{
+    height: 40px;
+  }
+</style>
+{% endblock %}
+

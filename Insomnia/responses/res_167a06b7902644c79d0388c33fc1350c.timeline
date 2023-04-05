@@ -1,0 +1,8 @@
+{"value":"WebSocket connection established","name":"Text","timestamp":1679816562189}
+{"value":"Preparing request to ws://localhost:8000/lobby/ipeYW/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgwMDBiN2VkLTVlZWItNDIzNy05YjU0LTE2MDk4ZGY4ZWM0MSIsInVzZXJuYW1lIjoibWF4aW0iLCJleHAiOjE2Nzk4MTgyNTgsInRva2VuX3R5cGUiOiJhY2Nlc3MifQ.WWxx8-tLlfpqAWbAoxhEYZmnprfp3lqVD9HdNiLC4ys","name":"Text","timestamp":1679816562189}
+{"value":"Current time is 2023-03-26T07:42:42.189Z","name":"Text","timestamp":1679816562189}
+{"value":"Using HTTP 1.1","name":"Text","timestamp":1679816562189}
+{"value":"GET /lobby/ipeYW/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgwMDBiN2VkLTVlZWItNDIzNy05YjU0LTE2MDk4ZGY4ZWM0MSIsInVzZXJuYW1lIjoibWF4aW0iLCJleHAiOjE2Nzk4MTgyNTgsInRva2VuX3R5cGUiOiJhY2Nlc3MifQ.WWxx8-tLlfpqAWbAoxhEYZmnprfp3lqVD9HdNiLC4ys HTTP/1.1\r\nSec-WebSocket-Version: 13\r\nSec-WebSocket-Key: JSvYPdQFqTMbHfsdvC3wHw==\r\nConnection: Upgrade\r\nUpgrade: websocket\r\nSec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\nHost: localhost:8000\r\n\r\n","name":"HeaderOut","timestamp":1679816562189}
+{"value":"HTTP/1.1 101 Switching Protocols","name":"HeaderIn","timestamp":1679816562189}
+{"value":"upgrade: websocket\nconnection: Upgrade\nsec-websocket-accept: bvaCVwEtCkKnfU7f3+1tElLs9H4=\nsec-websocket-extensions: permessage-deflate\ndate: Sun, 26 Mar 2023 07:42:42 GMT\nserver: uvicorn","name":"HeaderIn","timestamp":1679816562189}
+{"value":"Closing connection with code 1006","name":"Text","timestamp":1679816562207}

@@ -1,0 +1,66 @@
+2023-03-28 03:45:36.953 [info] Extension host with pid 11033 started
+2023-03-28 03:45:36.953 [info] Skipping acquiring lock for /home/abu/.config/Code - OSS/User/workspaceStorage/08084f14e35d4c3d0feff11bbaec6924.
+2023-03-28 03:45:37.142 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-03-28 03:45:37.142 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-03-28 03:45:37.143 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-28 03:45:37.143 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-28 03:45:37.143 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-28 03:45:37.144 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2023-03-28 03:45:37.708 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-28 03:45:37.708 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-28 03:45:37.978 [info] Eager extensions activated
+2023-03-28 03:45:38.063 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-28 03:45:38.064 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-28 03:45:38.394 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2023-03-28 03:46:04.207 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-03-28 03:46:27.095 [info] Extension host terminating: received terminate message from renderer
+2023-03-28 03:46:27.118 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+	at a.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+	at V.<computed>.Q.charCodeAt.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+	at c.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:108198)
+	at c.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at N.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:106867)
+	at c.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:108784)
+	at c.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:107674)
+	at c.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:30781)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1467127)
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1481856)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1485923
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1485909)
+	at C.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1469257)
+	at C.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12074)
+	at f.X (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11284)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9088
+	at Array.map (<anonymous>)
+	at f.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9075)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9347)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:18592)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:16502
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+	at t.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18973)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16961
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12638)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11925
+	at Socket.t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22461)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-03-28 03:46:27.123 [info] Extension host with pid 11033 exiting with code 0

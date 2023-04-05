@@ -1,0 +1,5 @@
+2023-04-05 02:23:30.648 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip
+product.json (WINS): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads
+2023-04-05 02:23:30.691 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-04-05 02:23:34.516 [info] [perf] Render performance baseline is 96ms

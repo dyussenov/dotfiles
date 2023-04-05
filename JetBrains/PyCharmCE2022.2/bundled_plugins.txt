@@ -1,0 +1,33 @@
+com.intellij|null
+training|null
+tanvd.grazi|null
+org.toml.lang|null
+org.jetbrains.settingsRepository|IDE Settings
+org.jetbrains.plugins.textmate|Other Tools
+org.jetbrains.plugins.terminal|Other Tools
+org.jetbrains.plugins.rest|null
+org.jetbrains.plugins.emojipicker|Other Tools
+org.intellij.intelliLang|Other Tools
+org.editorconfig.editorconfigjetbrains|Other Tools
+hg4idea|Version Controls
+com.jetbrains.sh|Languages
+com.intellij.tasks|Other Tools
+com.intellij.plugins.warmneon.colorscheme|UI
+com.intellij.plugins.twilight.colorscheme|UI
+com.intellij.plugins.monokai.colorscheme|UI
+com.intellij.plugins.github.colorscheme|UI
+com.intellij.platform.images|null
+org.intellij.plugins.markdown|Languages
+com.intellij.dev|null
+com.intellij.copyright|Other Tools
+com.intellij.properties|Languages
+com.intellij.configurationScript|null
+com.intellij.completion.ml.ranking|Other Tools
+Subversion|Version Controls
+org.jetbrains.plugins.github|Version Controls
+Git4Idea|Version Controls
+training.git|null
+com.intellij.searcheverywhere.ml|null
+org.jetbrains.plugins.yaml|Languages
+PythonCore|null
+com.jetbrains.pycharm.community.customization|null

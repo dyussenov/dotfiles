@@ -1,0 +1,11 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+Python interpreter path: /bin/python
+Starting Jedi language server for heep-underflow.
+> ./vnev/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> ./venv/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> conda info --json
+> /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py

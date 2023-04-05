@@ -1,0 +1,102 @@
+[
+	{
+		"value": "Preparing request to http://127.0.0.1:8000/regex-race/lobby/",
+		"name": "Text",
+		"timestamp": 1679788215102
+	},
+	{
+		"value": "Current time is 2023-03-25T23:50:15.102Z",
+		"name": "Text",
+		"timestamp": 1679788215102
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1679788215102
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1679788215103
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1679788215103
+	},
+	{
+		"name": "Text",
+		"value": "Connection 12 seems to be dead!\n",
+		"timestamp": 1679788215103
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 12\n",
+		"timestamp": 1679788215103
+	},
+	{
+		"name": "Text",
+		"value": "Hostname 127.0.0.1 was found in DNS cache\n",
+		"timestamp": 1679788215104
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8000...\n",
+		"timestamp": 1679788215104
+	},
+	{
+		"name": "Text",
+		"value": "Connected to 127.0.0.1 (127.0.0.1) port 8000 (#13)\n",
+		"timestamp": 1679788215104
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /regex-race/lobby/ HTTP/1.1\r\nHost: 127.0.0.1:8000\r\nUser-Agent: insomnia/2023.1.0\r\nauthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgwMDBiN2VkLTVlZWItNDIzNy05YjU0LTE2MDk4ZGY4ZWM0MSIsInVzZXJuYW1lIjoibWF4aW0iLCJleHAiOjE2Nzk3OTAwMTEsInRva2VuX3R5cGUiOiJhY2Nlc3MifQ.nnq--Ezk7oOZZPRXXiD4X6T34BXjLCmSPufuugxJraI\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 0\r\n\r\n",
+		"timestamp": 1679788215104
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1679788215111
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1679788215111
+	},
+	{
+		"name": "HeaderIn",
+		"value": "date: Sat, 25 Mar 2023 23:50:14 GMT\r\n",
+		"timestamp": 1679788215111
+	},
+	{
+		"name": "HeaderIn",
+		"value": "server: uvicorn\r\n",
+		"timestamp": 1679788215111
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-length: 131\r\n",
+		"timestamp": 1679788215111
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-type: application/json\r\n",
+		"timestamp": 1679788215111
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1679788215111
+	},
+	{
+		"name": "Text",
+		"value": "Received 131 B chunk",
+		"timestamp": 1679788215111
+	},
+	{
+		"name": "Text",
+		"value": "Connection #13 to host 127.0.0.1 left intact\n",
+		"timestamp": 1679788215111
+	}
+]

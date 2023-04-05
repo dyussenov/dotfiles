@@ -1,0 +1,8 @@
+smsc_url = 'api.mobizon.kz'
+smsc_login = 'admin'
+smsc_password = 'admin'
+api_key = 'kzc4ce453a2a0e17b185c4a533955a80d63585e907f60124501e4af78be9a7680451a0'
+
+sms_text = 'Код для регистрации на workaus.kz'
+
+allowed_urls = ['http://127.0.0.1:3000', 'http://127.0.0.1:8090']

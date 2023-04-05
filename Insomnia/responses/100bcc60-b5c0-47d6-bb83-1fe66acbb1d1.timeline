@@ -1,0 +1,107 @@
+[
+	{
+		"value": "Preparing request to http://127.0.0.1:8000/regex-race/lobby/pntnF",
+		"name": "Text",
+		"timestamp": 1679823402777
+	},
+	{
+		"value": "Current time is 2023-03-26T09:36:42.777Z",
+		"name": "Text",
+		"timestamp": 1679823402777
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1679823402777
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1679823402779
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1679823402779
+	},
+	{
+		"name": "Text",
+		"value": "Connection 6 seems to be dead!\n",
+		"timestamp": 1679823402780
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 6\n",
+		"timestamp": 1679823402780
+	},
+	{
+		"name": "Text",
+		"value": "Hostname 127.0.0.1 was found in DNS cache\n",
+		"timestamp": 1679823402780
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8000...\n",
+		"timestamp": 1679823402780
+	},
+	{
+		"name": "Text",
+		"value": "Connected to 127.0.0.1 (127.0.0.1) port 8000 (#7)\n",
+		"timestamp": 1679823402781
+	},
+	{
+		"name": "HeaderOut",
+		"value": "GET /regex-race/lobby/pntnF HTTP/1.1\r\nHost: 127.0.0.1:8000\r\nUser-Agent: insomnia/2023.1.0\r\nAuthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWE1YWZiLTA4MjgtNGMwYS04MTg5LTg5YjU5ZTQwN2Y3ZiIsInVzZXJuYW1lIjoicSIsImV4cCI6MTY3OTgyNTE4MiwidG9rZW5fdHlwZSI6ImFjY2VzcyJ9._fYkDyqoLWd3r4cRn86TFbarmdKOO_P9JRO6UxbYOo0\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 93\r\n\r\n",
+		"timestamp": 1679823402782
+	},
+	{
+		"name": "DataOut",
+		"value": "{\n\t\"education_form\": \"string\",\n  \"tg_login\": \"string\",\n  \"subject\": \"cum\",\n  \"work_time\": 0\n}",
+		"timestamp": 1679823402782
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1679823402788
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1679823402788
+	},
+	{
+		"name": "HeaderIn",
+		"value": "date: Sun, 26 Mar 2023 09:36:42 GMT\r\n",
+		"timestamp": 1679823402788
+	},
+	{
+		"name": "HeaderIn",
+		"value": "server: uvicorn\r\n",
+		"timestamp": 1679823402788
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-length: 15\r\n",
+		"timestamp": 1679823402788
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-type: application/json\r\n",
+		"timestamp": 1679823402788
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1679823402788
+	},
+	{
+		"name": "Text",
+		"value": "Received 15 B chunk",
+		"timestamp": 1679823402788
+	},
+	{
+		"name": "Text",
+		"value": "Connection #7 to host 127.0.0.1 left intact\n",
+		"timestamp": 1679823402788
+	}
+]

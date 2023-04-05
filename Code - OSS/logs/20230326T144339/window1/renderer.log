@@ -1,0 +1,65 @@
+2023-03-26 14:43:41.262 [error] Extension 'ms-toolsai.jupyter' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, quickPickItemTooltip
+product.json (WINS): notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden, contribNotebookStaticPreloads
+2023-03-26 14:43:41.276 [warning] [Vue.volar]: Cannot register 'typescript.tsdk'. This property is already registered.
+2023-03-26 14:43:44.484 [info] [perf] Render performance baseline is 56ms
+2023-03-26 15:34:29.602 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 15:34:40.036 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 15:59:00.690 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:23:06.948 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:23:07.978 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:23:09.024 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:28:06.199 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:28:07.467 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:28:08.547 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:46:57.729 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:48:53.308 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-03-26 16:48:56.076 [error] UnboundLocalError: local variable 'end_index' referenced before assignment: Error: UnboundLocalError: local variable 'end_index' referenced before assignment
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020590
+	at /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2020884
+	at Immediate.<anonymous> (/home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal/out/client/extension.js:2:2021246)
+	at process.processImmediate (node:internal/timers:466:21)

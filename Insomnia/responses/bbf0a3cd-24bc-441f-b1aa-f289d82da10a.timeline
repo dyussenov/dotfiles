@@ -1,0 +1,62 @@
+[
+	{
+		"value": "Preparing request to http://127.0.0.1:8000/auth/user/",
+		"name": "Text",
+		"timestamp": 1670609032092
+	},
+	{
+		"value": "Current time is 2022-12-09T18:03:52.092Z",
+		"name": "Text",
+		"timestamp": 1670609032092
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1670609032092
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1670609032093
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1670609032093
+	},
+	{
+		"name": "Text",
+		"value": "Connection 37 seems to be dead!\n",
+		"timestamp": 1670609032093
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 37\n",
+		"timestamp": 1670609032093
+	},
+	{
+		"name": "Text",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1670609032093
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8000...\n",
+		"timestamp": 1670609032093
+	},
+	{
+		"name": "Text",
+		"value": "connect to 127.0.0.1 port 8000 failed: Connection refused\n",
+		"timestamp": 1670609032094
+	},
+	{
+		"name": "Text",
+		"value": "Failed to connect to 127.0.0.1 port 8000 after 0 ms: Connection refused\n",
+		"timestamp": 1670609032094
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 38\n",
+		"timestamp": 1670609032094
+	}
+]

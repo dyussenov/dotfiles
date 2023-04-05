@@ -1,0 +1,6 @@
+[database]
+type = 'sqlite'
+sqlite_path = 'database.sqlite3'
+
+[fastapi]
+allowed_urls = ['http://127.0.0.1:3000', 'http://127.0.0.1:8080']

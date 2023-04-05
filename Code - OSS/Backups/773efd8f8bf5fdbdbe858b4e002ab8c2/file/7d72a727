@@ -1,0 +1,8 @@
+file:///home/abu/python-projects/interview/main.py {"mtime":1678881129493,"ctime":1675502255059,"size":98,"etag":"3a9e3i0o435","orphaned":false,"typeId":""}
+f = open('input.txt', 'r')
+
+first_line = f.readline().split()
+
+centers, nodes, events = first_line
+
+    

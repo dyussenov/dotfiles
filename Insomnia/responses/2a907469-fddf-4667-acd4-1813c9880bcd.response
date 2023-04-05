@@ -1,0 +1,4 @@
+{"_id":"b63d6d95-6465-44b1-9910-80cb55520834","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","type":"open","timestamp":1679816550043}
+{"_id":"33e7ac2c-bab3-4be2-890d-892baefc6208","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","data":"{\"creator\": \"qwer\", \"1\": \"qq\", \"2\": \"qq\", \"3\": \"qq\", \"4\": \"qq\", \"5\": \"qq\", \"6\": \"qq\", \"7\": \"maxim\"}","type":"message","direction":"INCOMING","timestamp":1679816550083}
+{"_id":"5edbf89a-4faa-4a68-90fd-137778a79128","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","data":"{\"creator\": \"qwer\", \"1\": \"qq\", \"2\": \"qq\", \"3\": \"qq\", \"4\": \"qq\", \"5\": \"qq\", \"6\": \"qq\", \"7\": \"maxim\"}","type":"message","direction":"INCOMING","timestamp":1679816556568}
+{"_id":"9a95fe71-9b0b-4f66-96d0-c3cc911986fb","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","code":1005,"reason":"","type":"close","wasClean":true,"timestamp":1679816559803}

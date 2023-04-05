@@ -1,0 +1,9 @@
+2023-04-03 09:54:14.520 [info] Starting worker process with pid 4550 (type: fileWatcher, window: 1).
+2023-04-03 09:54:15.427 [info] Deleted from disk ms-python.python /home/abu/.vscode-oss/extensions/ms-python.python-2023.4.0-universal
+2023-04-03 09:54:19.232 [info] Getting Manifest... vue.volar
+2023-04-03 09:54:21.054 [info] Installing extension: vue.volar
+2023-04-03 09:54:26.856 [info] Extracted extension to /home/abu/.vscode-oss/extensions/.284bcef3-0d53-4b75-a00e-a234e33a5525: vue.volar
+2023-04-03 09:54:26.867 [info] Renamed to /home/abu/.vscode-oss/extensions/vue.volar-1.3.11-universal
+2023-04-03 09:54:26.871 [info] Extracting extension completed. vue.volar
+2023-04-03 09:54:26.890 [info] Extension installed successfully: vue.volar
+2023-04-03 09:54:26.894 [info] Marked extension as uninstalled vue.volar-1.3.8-universal

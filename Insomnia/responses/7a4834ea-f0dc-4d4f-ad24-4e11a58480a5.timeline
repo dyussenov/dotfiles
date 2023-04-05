@@ -1,0 +1,112 @@
+[
+	{
+		"value": "Preparing request to http://127.0.0.1:8000/regex-race/lobby/weOKG",
+		"name": "Text",
+		"timestamp": 1679822392479
+	},
+	{
+		"value": "Current time is 2023-03-26T09:19:52.479Z",
+		"name": "Text",
+		"timestamp": 1679822392479
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1679822392479
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1679822392484
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1679822392484
+	},
+	{
+		"name": "Text",
+		"value": "Connection 1 seems to be dead!\n",
+		"timestamp": 1679822392485
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 1\n",
+		"timestamp": 1679822392485
+	},
+	{
+		"name": "Text",
+		"value": "Hostname 127.0.0.1 was found in DNS cache\n",
+		"timestamp": 1679822392486
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8000...\n",
+		"timestamp": 1679822392486
+	},
+	{
+		"name": "Text",
+		"value": "Connected to 127.0.0.1 (127.0.0.1) port 8000 (#2)\n",
+		"timestamp": 1679822392486
+	},
+	{
+		"name": "HeaderOut",
+		"value": "GET /regex-race/lobby/weOKG HTTP/1.1\r\nHost: 127.0.0.1:8000\r\nUser-Agent: insomnia/2023.1.0\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 93\r\n\r\n",
+		"timestamp": 1679822392486
+	},
+	{
+		"name": "DataOut",
+		"value": "{\n\t\"education_form\": \"string\",\n  \"tg_login\": \"string\",\n  \"subject\": \"cum\",\n  \"work_time\": 0\n}",
+		"timestamp": 1679822392486
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1679822392489
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 405 Method Not Allowed\r\n",
+		"timestamp": 1679822392489
+	},
+	{
+		"name": "HeaderIn",
+		"value": "date: Sun, 26 Mar 2023 09:19:51 GMT\r\n",
+		"timestamp": 1679822392489
+	},
+	{
+		"name": "HeaderIn",
+		"value": "server: uvicorn\r\n",
+		"timestamp": 1679822392489
+	},
+	{
+		"name": "HeaderIn",
+		"value": "allow: POST\r\n",
+		"timestamp": 1679822392489
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-length: 31\r\n",
+		"timestamp": 1679822392489
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-type: application/json\r\n",
+		"timestamp": 1679822392490
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1679822392490
+	},
+	{
+		"name": "Text",
+		"value": "Received 31 B chunk",
+		"timestamp": 1679822392490
+	},
+	{
+		"name": "Text",
+		"value": "Connection #2 to host 127.0.0.1 left intact\n",
+		"timestamp": 1679822392490
+	}
+]

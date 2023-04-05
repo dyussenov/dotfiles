@@ -1,0 +1,8 @@
+{"value":"WebSocket connection established","name":"Text","timestamp":1679828413270}
+{"value":"Preparing request to ws://localhost:8000/lobby/mTCnW/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWE1YWZiLTA4MjgtNGMwYS04MTg5LTg5YjU5ZTQwN2Y3ZiIsInVzZXJuYW1lIjoicSIsImV4cCI6MTY3OTgyOTk3MSwidG9rZW5fdHlwZSI6ImFjY2VzcyJ9.Hq0bWvWcyl8VBC3H6LiOU1n4VC5-TGdIi1QN-lLEbRc","name":"Text","timestamp":1679828413269}
+{"value":"Current time is 2023-03-26T11:00:13.269Z","name":"Text","timestamp":1679828413269}
+{"value":"Using HTTP 1.1","name":"Text","timestamp":1679828413269}
+{"value":"GET /lobby/mTCnW/ws?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2YWE1YWZiLTA4MjgtNGMwYS04MTg5LTg5YjU5ZTQwN2Y3ZiIsInVzZXJuYW1lIjoicSIsImV4cCI6MTY3OTgyOTk3MSwidG9rZW5fdHlwZSI6ImFjY2VzcyJ9.Hq0bWvWcyl8VBC3H6LiOU1n4VC5-TGdIi1QN-lLEbRc HTTP/1.1\r\nSec-WebSocket-Version: 13\r\nSec-WebSocket-Key: GulhVb1oYNon4GcNOIJn/A==\r\nConnection: Upgrade\r\nUpgrade: websocket\r\nSec-WebSocket-Extensions: permessage-deflate; client_max_window_bits\r\nHost: localhost:8000\r\n\r\n","name":"HeaderOut","timestamp":1679828413269}
+{"value":"HTTP/1.1 101 Switching Protocols","name":"HeaderIn","timestamp":1679828413269}
+{"value":"upgrade: websocket\nconnection: Upgrade\nsec-websocket-accept: 8swkxO0fG4xzXS8k7kjxa/1rgRo=\nsec-websocket-extensions: permessage-deflate\ndate: Sun, 26 Mar 2023 11:00:12 GMT\nserver: uvicorn","name":"HeaderIn","timestamp":1679828413269}
+{"value":"Closing connection with code 1012","name":"Text","timestamp":1679828424250}

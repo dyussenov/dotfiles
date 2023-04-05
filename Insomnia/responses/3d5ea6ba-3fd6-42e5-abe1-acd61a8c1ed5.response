@@ -1,0 +1,1 @@
+{"_id":"924057a6-d567-414c-877c-24e19edb6c0e","requestId":"ws-req_c4a2aa6ae9524771b91acb919bf3a37d","message":"write EPROTO 532644104584:error:100000f7:SSL routines:OPENSSL_internal:WRONG_VERSION_NUMBER:../../third_party/boringssl/src/ssl/tls_record.cc:231:\n","type":"error","error":{"errno":-71,"code":"EPROTO","syscall":"write"},"timestamp":1679809279112}

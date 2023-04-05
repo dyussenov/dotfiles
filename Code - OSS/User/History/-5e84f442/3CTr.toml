@@ -1,0 +1,6 @@
+database_login='workaus'
+database_password='CHANGEME'
+database_host='127.0.0.1'
+database_port=27017
+
+allowed_urls=['http://127.0.0.1:8080', 'http://127.0.0.1:8000']

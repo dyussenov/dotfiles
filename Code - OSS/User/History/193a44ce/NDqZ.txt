@@ -1,0 +1,9 @@
+2 5
+2 1 price stock_count lol
+1 0 partner_content
+{"trace_id": "1", "offer": {"id": "1", "price": 9990}}
+{"trace_id": "2", "offer": {"id": "1", "stock_count": 100}}
+{"trace_id": "3", "offer": {"id": "2", "partner_content": {"title": "Backpack"}}}
+{"trace_id": "4", "offer": {"id": "1", "stock_count": 100}}
+{"trace_id": "5", "offer": {"id": "2", "partner_content": {"description": "Best backpack ever"}}}
+{"trace_id": "6", "offer": {"id": "2", "price":1488,"partner_content": {"description": "Best backpack ever88"}}}

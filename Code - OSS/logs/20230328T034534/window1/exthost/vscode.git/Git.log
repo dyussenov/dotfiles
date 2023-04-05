@@ -1,0 +1,27 @@
+2023-03-28 03:45:38.342 [info] Log level: Info
+2023-03-28 03:45:38.342 [info] Validating found git in: "git"
+2023-03-28 03:45:38.342 [info] Using git "2.40.0" from "git"
+2023-03-28 03:45:38.342 [info] > git rev-parse --show-toplevel [16ms]
+2023-03-28 03:45:38.342 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2023-03-28 03:45:38.342 [info] Open repository: /home/abu/python-course
+2023-03-28 03:45:38.342 [info] > git config --get commit.template [41ms]
+2023-03-28 03:45:38.342 [info] > git rev-parse --show-toplevel [53ms]
+2023-03-28 03:45:38.342 [info] > git rev-parse --show-toplevel [48ms]
+2023-03-28 03:45:38.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [50ms]
+2023-03-28 03:45:38.342 [info] > git rev-parse --show-toplevel [18ms]
+2023-03-28 03:45:38.342 [info] > git status -z -uall [16ms]
+2023-03-28 03:45:38.342 [info] > git rev-parse --show-toplevel [41ms]
+2023-03-28 03:45:38.342 [info] > git config --get commit.template [74ms]
+2023-03-28 03:45:38.346 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [5ms]
+2023-03-28 03:45:38.359 [info] > git status -z -uall [4ms]
+2023-03-28 03:45:38.705 [info] > git check-ignore -v -z --stdin [17ms]
+2023-03-28 03:45:39.125 [info] > git show --textconv :docs/basic/input.md [48ms]
+2023-03-28 03:45:39.126 [info] > git ls-files --stage -- /home/abu/python-course/docs/basic/input.md [25ms]
+2023-03-28 03:45:39.152 [info] > git cat-file -s 3f5d3c715b5d2ad7e689b1d844423a68abe9d8a1 [5ms]
+2023-03-28 03:45:39.864 [info] > git check-ignore -v -z --stdin [1ms]
+2023-03-28 03:45:58.061 [info] > git show --textconv :mkdocs.yml [12ms]
+2023-03-28 03:45:58.062 [info] > git ls-files --stage -- /home/abu/python-course/mkdocs.yml [2ms]
+2023-03-28 03:45:58.072 [info] > git cat-file -s f20748cd2b921a06a3cd5433dcd68500666d1254 [2ms]
+2023-03-28 03:45:59.064 [info] > git show --textconv :.gitlab-ci.yml [26ms]
+2023-03-28 03:45:59.068 [info] > git ls-files --stage -- /home/abu/python-course/.gitlab-ci.yml [5ms]
+2023-03-28 03:45:59.097 [info] > git cat-file -s ae930caf6ba9f0699620cb28fc1c221c89be41a6 [8ms]

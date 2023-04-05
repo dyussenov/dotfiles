@@ -1,0 +1,102 @@
+[
+	{
+		"value": "Preparing request to http://127.0.0.1:8000/regex-race/lobby/ipeYW",
+		"name": "Text",
+		"timestamp": 1679807953607
+	},
+	{
+		"value": "Current time is 2023-03-26T05:19:13.607Z",
+		"name": "Text",
+		"timestamp": 1679807953607
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1679807953607
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1679807953608
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1679807953608
+	},
+	{
+		"name": "Text",
+		"value": "Found bundle for host 127.0.0.1: 0x7c02623660 [serially]\n",
+		"timestamp": 1679807953609
+	},
+	{
+		"name": "Text",
+		"value": "Can not multiplex, even if we wanted to!\n",
+		"timestamp": 1679807953609
+	},
+	{
+		"name": "Text",
+		"value": "Re-using existing connection! (#6) with host 127.0.0.1\n",
+		"timestamp": 1679807953609
+	},
+	{
+		"name": "Text",
+		"value": "Connected to 127.0.0.1 (127.0.0.1) port 8000 (#6)\n",
+		"timestamp": 1679807953609
+	},
+	{
+		"name": "HeaderOut",
+		"value": "GET /regex-race/lobby/ipeYW HTTP/1.1\r\nHost: 127.0.0.1:8000\r\nUser-Agent: insomnia/2023.1.0\r\nAuthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA2MTMxMGIzLWEwZTktNDFiYi1hODIyLTk2OTI4Mzc0ODhmNSIsInVzZXJuYW1lIjoicXEiLCJleHAiOjE2Nzk4MDk0NzIsInRva2VuX3R5cGUiOiJhY2Nlc3MifQ.5BZeyMzfRqsmaNzqLaOU5KuCf53oyrQ2LBHWBr1VxAk\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 93\r\n\r\n",
+		"timestamp": 1679807953609
+	},
+	{
+		"name": "DataOut",
+		"value": "{\n\t\"education_form\": \"string\",\n  \"tg_login\": \"string\",\n  \"subject\": \"cum\",\n  \"work_time\": 0\n}",
+		"timestamp": 1679807953609
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1679807953611
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1679807953611
+	},
+	{
+		"name": "HeaderIn",
+		"value": "date: Sun, 26 Mar 2023 05:19:13 GMT\r\n",
+		"timestamp": 1679807953611
+	},
+	{
+		"name": "HeaderIn",
+		"value": "server: uvicorn\r\n",
+		"timestamp": 1679807953611
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-length: 72\r\n",
+		"timestamp": 1679807953611
+	},
+	{
+		"name": "HeaderIn",
+		"value": "content-type: application/json\r\n",
+		"timestamp": 1679807953612
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1679807953612
+	},
+	{
+		"name": "Text",
+		"value": "Received 72 B chunk",
+		"timestamp": 1679807953612
+	},
+	{
+		"name": "Text",
+		"value": "Connection #6 to host 127.0.0.1 left intact\n",
+		"timestamp": 1679807953612
+	}
+]

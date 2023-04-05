@@ -1,0 +1,76 @@
+2023-04-05 02:42:22.769 [info] Log level: Info
+2023-04-05 02:42:22.769 [info] Validating found git in: "git"
+2023-04-05 02:42:22.769 [info] Using git "2.40.0" from "git"
+2023-04-05 02:42:22.769 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-05 02:42:22.787 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2023-04-05 02:42:22.793 [info] Open repository: /home/abu/edus
+2023-04-05 02:42:22.815 [info] > git rev-parse --show-toplevel [14ms]
+2023-04-05 02:42:22.825 [info] No remotes found in the git config file.
+2023-04-05 02:42:22.829 [info] > git config --get commit.template [14ms]
+2023-04-05 02:42:22.831 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2023-04-05 02:42:22.859 [info] > git status -z -uall [20ms]
+2023-04-05 02:42:23.219 [info] > git config --get commit.template [8ms]
+2023-04-05 02:42:23.230 [info] No remotes found in the git config file.
+2023-04-05 02:42:23.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-04-05 02:42:23.254 [info] > git status -z -uall [9ms]
+2023-04-05 02:42:23.358 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-05 02:42:33.409 [info] > git show --textconv :.gitignore [25ms]
+2023-04-05 02:42:33.414 [info] > git ls-files --stage -- /home/abu/edus/.gitignore [8ms]
+2023-04-05 02:42:33.632 [info] > git check-ignore -v -z --stdin [4ms]
+2023-04-05 02:42:34.165 [info] No remotes found in the git config file.
+2023-04-05 02:42:34.167 [info] > git config --get commit.template [26ms]
+2023-04-05 02:42:34.167 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-04-05 02:42:34.195 [info] > git status -z -uall [15ms]
+2023-04-05 02:43:06.957 [info] > git check-ignore -v -z --stdin [3ms]
+2023-04-05 02:43:07.431 [info] No remotes found in the git config file.
+2023-04-05 02:43:07.436 [info] > git config --get commit.template [29ms]
+2023-04-05 02:43:07.438 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2023-04-05 02:43:07.472 [info] > git status -z -uall [9ms]
+2023-04-05 02:43:51.962 [info] > git config --get commit.template [7ms]
+2023-04-05 02:43:51.979 [info] No remotes found in the git config file.
+2023-04-05 02:43:51.983 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-04-05 02:43:51.997 [info] > git status -z -uall [3ms]
+2023-04-05 02:44:04.798 [info] No remotes found in the git config file.
+2023-04-05 02:44:04.799 [info] > git config --get commit.template [25ms]
+2023-04-05 02:44:04.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-04-05 02:44:04.816 [info] > git status -z -uall [1ms]
+2023-04-05 02:44:04.855 [info] > git ls-files --stage -- /home/abu/edus/.gitignore [4ms]
+2023-04-05 02:44:04.865 [info] > git cat-file -s 1ba442a3b84d02f90ce6e30ed6618115f4e8eb7f [1ms]
+2023-04-05 02:44:04.878 [info] > git show --textconv :.gitignore [2ms]
+2023-04-05 02:44:14.477 [info] No remotes found in the git config file.
+2023-04-05 02:44:14.478 [info] > git config --get commit.template [12ms]
+2023-04-05 02:44:14.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-04-05 02:44:14.491 [info] > git status -z -uall [2ms]
+2023-04-05 02:44:14.574 [info] > git ls-files --stage -- /home/abu/edus/.gitignore [3ms]
+2023-04-05 02:44:14.589 [info] > git show --textconv :.gitignore [3ms]
+2023-04-05 02:44:27.068 [info] > git check-ignore -v -z --stdin [6ms]
+2023-04-05 02:44:27.511 [info] No remotes found in the git config file.
+2023-04-05 02:44:27.514 [info] > git config --get commit.template [22ms]
+2023-04-05 02:44:27.515 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2023-04-05 02:44:27.532 [info] > git status -z -uall [4ms]
+2023-04-05 02:44:30.635 [info] > git ls-files --stage -- /home/abu/edus/.gitignore [1ms]
+2023-04-05 02:44:30.643 [info] > git cat-file -s 1ba442a3b84d02f90ce6e30ed6618115f4e8eb7f [1ms]
+2023-04-05 02:44:30.655 [info] > git show --textconv :.gitignore [2ms]
+2023-04-05 02:44:32.567 [info] No remotes found in the git config file.
+2023-04-05 02:44:32.568 [info] > git config --get commit.template [17ms]
+2023-04-05 02:44:32.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2023-04-05 02:44:32.588 [info] > git status -z -uall [4ms]
+2023-04-05 02:44:39.079 [info] No remotes found in the git config file.
+2023-04-05 02:44:39.081 [info] > git config --get commit.template [12ms]
+2023-04-05 02:44:39.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2023-04-05 02:44:39.096 [info] > git status -z -uall [4ms]
+2023-04-05 02:44:39.191 [info] > git ls-files --stage -- /home/abu/edus/.gitignore [3ms]
+2023-04-05 02:44:39.207 [info] > git cat-file -s 1ba442a3b84d02f90ce6e30ed6618115f4e8eb7f [1ms]
+2023-04-05 02:44:39.232 [info] > git show --textconv :.gitignore [5ms]
+2023-04-05 02:44:59.715 [info] > git config --get commit.template [5ms]
+2023-04-05 02:44:59.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-05 02:44:59.721 [info] > git status -z -uall [1ms]
+2023-04-05 02:44:59.838 [info] > git ls-files --stage -- /home/abu/edus/.gitignore [5ms]
+2023-04-05 02:44:59.863 [info] > git cat-file -s 1ba442a3b84d02f90ce6e30ed6618115f4e8eb7f [5ms]
+2023-04-05 02:44:59.881 [info] > git show --textconv :.gitignore [4ms]
+2023-04-05 02:45:07.213 [info] > git config --get commit.template [20ms]
+2023-04-05 02:45:07.215 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2023-04-05 02:45:07.233 [info] > git status -z -uall [5ms]
+2023-04-05 02:45:07.298 [info] > git ls-files --stage -- /home/abu/edus/.gitignore [1ms]
+2023-04-05 02:45:07.303 [info] > git cat-file -s 1ba442a3b84d02f90ce6e30ed6618115f4e8eb7f [1ms]
+2023-04-05 02:45:07.313 [info] > git show --textconv :.gitignore [2ms]

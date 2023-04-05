@@ -1,0 +1,38 @@
+
+{% load static %}
+<!-- MENU SIDEBAR-->
+<aside class="menu-sidebar d-none d-lg-block">
+    <div class="logo">
+        <a href="#">
+            <img src="{% static 'images/icon/logo.png' %}" alt="Cool Admin" />
+        </a>
+    </div>
+    <div class="menu-sidebar__content js-scrollbar1">
+        <nav class="navbar-sidebar">
+            <ul class="list-unstyled navbar__list">
+                <li class="active">
+                    <a href="{% url 'home_page' %}"><i class="fas fa-tachometer-alt"></i>Сводка</a>
+                </li>
+                <li>
+                    <a href="{% url 'faculty_list' %}"><i class="fas fa-chart-bar"></i>Факультеты</a>
+                </li>
+                <li>
+                    <a href="{% url 'kafedra_list' %}"><i class="fas fa-chart-bar"></i>Кафедра</a>
+                </li>
+                <li>
+                    <a href="{% url 'subject_list' %}"><i class="fas fa-chart-bar"></i>Предметы</a>
+                </li>
+                <li>
+                    <a href="{% url 'teacher_list' %}"><i class="fas fa-chart-bar"></i>Преподаватели</a>
+                </li>
+                <li>
+                    <a href="{% url 'group_list' %}"><i class="fas fa-chart-bar"></i>Группы</a>
+                </li>
+                <li>
+                    <a href="{% url 'student_list' %}"><i class="fas fa-chart-bar"></i>Студенты</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</aside>
+<!-- END MENU SIDEBAR-->

@@ -1,0 +1,8 @@
+ALLOWED_HOSTS = ""
+PS_URL = ""
+PS_PORT = ""
+PS_LOGIN = ""
+PS_DB_NAME = ""
+PS_PASSWORD = ""
+REDIS_URL = ""
+REDIS_PORT = ""

@@ -1,0 +1,4 @@
+VITE_APP_VUEX_STRICT=true
+
+VITE_APP_WSGI_BASE_URL=http://localhost:8000
+VITE_APP_ASGI_BASE_URL=ws://localhost:8000

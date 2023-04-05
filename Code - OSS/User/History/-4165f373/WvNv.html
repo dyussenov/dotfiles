@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Справка {{ name }}</title>
+</head>
+<body>
+    <h1>Карагандинский Университет Казпотребсоюза</h1>
+    <p><b>{{ name }} {{surname}}</b> является студентом Карагандинского Университета Казпотребсоюза.</p>
+    <p class="mp">
+        <p>(Должность уполномоченного лица)</p>
+        <p>(Ф.И.О.) М.П.</p>
+    </p>
+</body>
+</html>
+
+<style>
+    *{
+        text-align: center;
+    }
+    h1{
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    .mp{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+</style>

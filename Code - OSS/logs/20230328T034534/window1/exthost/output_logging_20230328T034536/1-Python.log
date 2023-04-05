@@ -1,0 +1,5 @@
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+Python interpreter path: ./venv/bin/python
+Starting Jedi language server for python-course.
+Send text to terminal: source /home/abu/python-course/venv/bin/activate

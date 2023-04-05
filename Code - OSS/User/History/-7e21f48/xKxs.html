@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Categories{% endblock %}
+
+{% block content %}
+
+{% for cat in categories %}
+<div class="card text-white bg-dark mb-3">
+  <div class="card-header"><h5 class="card-title">{{ cat.title }}</h5></div>
+  <div class="card-body">
+    <p class="card-text">{{ cat.description }}</p>
+    <img src="{{cat.preview.url}}" alt="">
+  </div>
+</div>
+{% endfor %}
+
+{% endblock %}

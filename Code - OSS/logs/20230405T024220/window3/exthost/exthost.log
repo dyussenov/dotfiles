@@ -1,0 +1,67 @@
+2023-04-05 13:56:36.613 [info] Extension host with pid 184605 started
+2023-04-05 13:56:36.613 [info] Skipping acquiring lock for /home/abu/.config/Code - OSS/User/workspaceStorage/51f18826d094c2553f60f80a26bb84a1.
+2023-04-05 13:56:36.870 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage:plaintext'
+2023-04-05 13:56:36.871 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-04-05 13:56:36.871 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2023-04-05 13:56:36.871 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-04-05 13:56:36.871 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-04-05 13:56:37.824 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-04-05 13:56:37.824 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-04-05 13:56:37.825 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-04-05 13:56:38.004 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-04-05 13:56:38.146 [info] Eager extensions activated
+2023-04-05 13:56:38.347 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-04-05 13:56:38.347 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-04-05 13:57:04.982 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-04-05 13:57:30.033 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-04-05 14:19:21.459 [info] Extension host terminating: received terminate message from renderer
+2023-04-05 14:19:21.503 [error] Canceled: Canceled
+	at new l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:88793)
+	at a.O (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:11260)
+	at V.<computed>.Q.charCodeAt.V.<computed> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:106:8550)
+	at c.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:108198)
+	at c.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at N.registerCommand.description (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:106867)
+	at c.h (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:108784)
+	at c.g (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:107674)
+	at c.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:96:107574)
+	at Object.executeCommand (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:117:30781)
+	at D (/usr/lib/code/extensions/git/dist/main.js:2:1467127)
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at Object.m [as dispose] (/usr/lib/code/extensions/git/dist/main.js:2:1481856)
+	at /usr/lib/code/extensions/git/dist/main.js:2:1485923
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code/extensions/git/dist/main.js:2:1485909)
+	at C.<anonymous> (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1469257)
+	at C.dispose (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at k (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:10:12074)
+	at f.X (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:11284)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9088
+	at Array.map (<anonymous>)
+	at f.Q (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9075)
+	at f.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:108:9347)
+	at u.terminate (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:18592)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:16502
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at p.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:14907)
+	at t.E (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:18973)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:16961
+	at f.invoke (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at m.deliver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:2066)
+	at d.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:63:1704)
+	at u.acceptChunk (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:12638)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:11925
+	at Socket.t (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:72:22461)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2023-04-05 14:19:21.506 [info] Extension host with pid 184605 exiting with code 0

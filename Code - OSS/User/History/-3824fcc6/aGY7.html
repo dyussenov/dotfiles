@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div id="multi-bg" class="p-12 mb-4 bg-light rounded-3">
+      <div class="container-fluid p-5">
+          {% if user.is_authenticated %}
+                <h1 class="display-5 fw-bold">Welcome {{user.username}}!</h1>
+                <p class="col-md-8 fs-4">You can set up your skills and change your tags in profile settings</p>
+                <button class="btn btn-primary btn-lg" type="button">Profile settings</button>
+          {% else %}
+                <h1 class="display-5 fw-bold">Welcome!</h1>
+                <p class="col-md-8 fs-4">Please log in or sign up to set up your skills and change your tags in profile settings</p>
+                <a class="btn btn-lg btn-light" href="{% url 'login' %}" role="button">Log in</a>
+                <a class="btn btn-lg btn-primary" href="{% url 'signup' %}" role="button">Sign up</a>
+          {% endif %}
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+          {% if user.is_authenticated %}
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2><i class="bi bi-lightbulb"></i>Answer questions</h2>
+            <p>Confirm your skills! Questions will be picked for you by your skills</p>
+            <button class="btn btn-outline-light" type="button">Questions list</button>
+        </div>
+          {% else %}
+            <div class="h-100 p-5 text-white bg-dark rounded-3">
+            <h2>Answer questions</h2>
+            <p>Questions will be picked for you by your skills</p>
+                 <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="hover focus" data-bs-content="You need to log in">
+                <button class="btn btn-outline-light" type="button" disabled>Questions list</button>
+            </span></div>
+          {% endif %}
+        </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 bg-light border rounded-3">
+            {% if user.is_authenticated %}
+            <h2><i class="bi bi-question-circle"></i> Ask questions</h2>
+            <p>Find answers for your questions that made by confirmed specialists</p>
+            <button class="btn btn-outline-secondary" type="button">Ask a question</button>
+            {% else %}
+            <h2>Ask questions</h2>
+            <p>Find answers for your questions that made by confirmed specialists</p>
+
+            <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="right" data-bs-trigger="hover focus" data-bs-content="You need to log in">
+                <button class="btn btn-primary" type="button" disabled>Ask a question</button>
+            </span>
+            {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="fluid-container mt-4 p-5 mb-4 bg-light rounded-3">
+        <h2 class="mb-4"><i class="bi bi-fire text-danger"></i>Tranding questions</h2>
+        {% for i in '0123456789'|make_list %}
+            <div class="card mb-4">
+              <div class="card-header d-flex justify-content-between">
+                <div class="d-flex">
+                    <p class="mb-0">Coding</p>
+                        <div class="ms-2">
+                        <a href="#">#python</a>
+                        <a href="#">#oop</a>
+                  </div>
+                </div>
+                  <div>
+                      <p class="text-secondary mb-0"><i class="bi bi-eye"></i> 228 last week</p>
+                  </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Question title</h5>
+                  <div class="mb-2">
+                      <a class="text-secondary"><i class="bi bi-person"></i> username</a>
+                  </div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ea eaque illum inventore laborum, maxime modi molestiae quos suscipit temporibus. Aliquid fugit hic incidunt nesciunt officiis reiciendis, saepe! Ex, magni.</p>
+                <a href="#" class="btn btn-primary">Go to answers</a>
+              </div>
+            </div>
+        {% endfor %}
+
+    </div>
+
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+
+
+<style>
+   #multi-bg{
+      height: 300px;
+      display: block;
+      background-color: #808;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1698%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1699)'%3e%3c/rect%3e%3cpath d='M175.288%2c701.169C218.408%2c704.102%2c262.744%2c687.526%2c285.179%2c650.585C308.371%2c612.397%2c307.261%2c562.373%2c281.93%2c525.569C259.218%2c492.57%2c215.331%2c489.751%2c175.288%2c490.92C137.945%2c492.01%2c97.964%2c499.36%2c78.912%2c531.496C59.572%2c564.119%2c69.83%2c604.234%2c88.561%2c637.211C107.576%2c670.687%2c136.878%2c698.556%2c175.288%2c701.169' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M468.225%2c425.935C492.398%2c423.843%2c514.474%2c412.371%2c526.713%2c391.421C539.065%2c370.278%2c539.017%2c344.975%2c528.417%2c322.901C515.985%2c297.013%2c496.899%2c271.211%2c468.225%2c269.627C437.482%2c267.928%2c410.972%2c289.047%2c395.293%2c315.546C379.283%2c342.603%2c371.783%2c377.097%2c389.113%2c403.328C405.317%2c427.854%2c438.939%2c428.469%2c468.225%2c425.935' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M121.431%2c229.121C163.703%2c231.897%2c208.205%2c218.645%2c230.512%2c182.631C253.834%2c144.979%2c250.291%2c96.373%2c226.982%2c58.713C204.832%2c22.924%2c163.459%2c4.113%2c121.431%2c6.386C83.024%2c8.463%2c52.006%2c35.184%2c33.96%2c69.151C17.094%2c100.897%2c17.381%2c138.228%2c34.627%2c169.769C52.651%2c202.731%2c83.944%2c226.66%2c121.431%2c229.121' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1149.909%2c259.522C1167.79%2c259.236%2c1181.95%2c246.274%2c1190.897%2c230.79C1199.85%2c215.295%2c1204.344%2c196.361%2c1195.336%2c180.898C1186.376%2c165.517%2c1167.71%2c160.393%2c1149.909%2c160.43C1132.187%2c160.467%2c1113.977%2c165.921%2c1104.812%2c181.089C1095.374%2c196.709%2c1097.484%2c216.32%2c1106.581%2c232.141C1115.708%2c248.015%2c1131.6%2c259.815%2c1149.909%2c259.522' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1360.295%2c456.367C1414.004%2c459.537%2c1467.569%2c436.988%2c1496.159%2c391.411C1526.524%2c343.004%2c1530.702%2c280.56%2c1501.32%2c231.549C1472.657%2c183.737%2c1415.994%2c162.518%2c1360.295%2c164.78C1308.559%2c166.881%2c1261.758%2c196.345%2c1237.805%2c242.25C1215.472%2c285.051%2c1225.66%2c334.956%2c1249.632%2c376.861C1273.805%2c419.117%2c1311.698%2c453.499%2c1360.295%2c456.367' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M996.235%2c441.447C1025.696%2c442.241%2c1048.054%2c417.004%2c1061.225%2c390.639C1072.941%2c367.185%2c1070.548%2c340.466%2c1058.242%2c317.317C1044.995%2c292.398%2c1024.456%2c268.229%2c996.235%2c268.381C968.185%2c268.532%2c947.872%2c292.867%2c935.372%2c317.978C924.334%2c340.153%2c926.092%2c365.074%2c937.044%2c387.291C949.717%2c412.999%2c967.583%2c440.674%2c996.235%2c441.447' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M286.915%2c122.908C319.508%2c122.123%2c352.322%2c111.341%2c369.197%2c83.446C386.616%2c54.652%2c383.226%2c19.153%2c367.766%2c-10.738C350.75%2c-43.638%2c323.949%2c-76.329%2c286.915%2c-75.638C250.586%2c-74.96%2c228.592%2c-39.678%2c211.13%2c-7.814C194.584%2c22.379%2c180.2%2c57.797%2c197.468%2c87.583C214.7%2c117.307%2c252.567%2c123.735%2c286.915%2c122.908' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1305.351%2c474.366C1326.008%2c475.648%2c1349.199%2c471.514%2c1359.397%2c453.504C1369.503%2c435.656%2c1360.744%2c413.933%2c1349.149%2c397.014C1339.216%2c382.521%2c1322.876%2c375.903%2c1305.351%2c374.645C1284.592%2c373.154%2c1259.796%2c371.971%2c1249.111%2c389.831C1238.29%2c407.918%2c1250.123%2c429.898%2c1261.798%2c447.446C1271.93%2c462.676%2c1287.094%2c473.233%2c1305.351%2c474.366' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M826.062%2c346.308C848.065%2c347.001%2c870.579%2c338.771%2c881.662%2c319.75C892.809%2c300.619%2c888.393%2c277.227%2c877.567%2c257.913C866.453%2c238.086%2c848.789%2c220.954%2c826.062%2c220.562C802.772%2c220.161%2c782.135%2c235.417%2c771.389%2c256.083C761.411%2c275.272%2c765.004%2c297.932%2c776.213%2c316.429C786.973%2c334.186%2c805.309%2c345.654%2c826.062%2c346.308' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M741.871%2c238.737C784.395%2c238.275%2c830.776%2c233.998%2c853.808%2c198.248C878.372%2c160.121%2c872.108%2c110.799%2c849.703%2c71.364C827.001%2c31.406%2c787.816%2c2.288%2c741.871%2c1.227C694.133%2c0.125%2c649.094%2c24.919%2c625.056%2c66.178C600.857%2c107.714%2c598.689%2c160.922%2c625.637%2c200.729C650.129%2c236.909%2c698.184%2c239.212%2c741.871%2c238.737' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1167.113%2c626.457C1214.539%2c629.085%2c1268.073%2c620.92%2c1291.544%2c579.625C1314.848%2c538.623%2c1292.066%2c490.086%2c1267.506%2c449.823C1244.282%2c411.75%2c1211.71%2c375.553%2c1167.113%2c375.637C1122.622%2c375.72%2c1088.396%2c410.989%2c1067.371%2c450.198C1047.638%2c486.998%2c1043.91%2c530.701%2c1064.475%2c567.043C1085.342%2c603.918%2c1124.808%2c624.113%2c1167.113%2c626.457' fill='rgba(20%2c 164%2c 181%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1698'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='84.72%25' y1='139.29%25' x2='15.28%25' y2='-39.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1699'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(78%2c 207%2c 168%2c 0)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom center, 50%, 50%;
+   }
+</style>
+
+{% endblock %}

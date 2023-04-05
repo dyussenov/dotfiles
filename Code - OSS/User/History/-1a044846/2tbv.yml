@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  postgresql:
+    container_name: 'postgresql'
+    image: postgres
+    restart: always
+    env_file:
+      - ./.envs/.local/.postgres
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data/
+    ports:
+      - 5432:5432
+
+
+  auth-ms:
+    container_name: 'auth-ms'
+    build: ./auth-ms/
+    command: python main.py
+    restart: always
+    env_file:
+      - ./.envs/.local/.auth-ms
+      - ./.envs/.local/.postgres
+    ports:
+      - 5000:5000
+
+  race-ms:
+    container_name: race-ms
+    build: ./race-ms
+    working_dir: /race-ms
+    env_file:
+      - ./.envs/.local/.race-ms
+      - ./.envs/.local/.postgres
+      - ./.envs/.local/.redis
+    ports:
+      - 8000:8000
+
+  front-ms:
+    container_name: front-ms
+    image: node:lts-alpine
+    working_dir: /front-ms
+    env_file:
+      - ./.envs/.local/.front-ms
+    command: sh -c "yarn install && yarn dev --host=0.0.0.0 --port=8080"
+    volumes:
+      - ./front-ms:/front-ms
+    ports:
+      - 8080:8080
+
+  redis:
+    container_name: redis
+    image: redis
+    command: [sh, -c, "rm -f /data/dump.rdb && redis-server"]
+    ports:
+      - "6379:6379"
+      
+volumes:
+  postgres-data:

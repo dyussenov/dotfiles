@@ -1,0 +1,10 @@
+Visual Studio Code (1.76.2, undefined, desktop)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.4.1.
+Workspace folder /home/abu/python-projects/tkk
+info 02:23:32.731: LSP Notebooks experiment is enabled
+info 02:23:33.231: Process Execution: > ~/python-projects/tkk/venv/bin/python -m pip list
+> ~/python-projects/tkk/venv/bin/python -m pip list
+info 02:31:50.185: Shutting down notebooks for 47704d5d-e73e-4d2a-99ff-780416c5a782
+info 02:31:50.186: Disposing HostJupyterExecution 152a84bd-9747-4837-9e17-f8ebaf3e24a5
+info 02:31:50.186: Disposing HostJupyterExecution 152a84bd-9747-4837-9e17-f8ebaf3e24a5

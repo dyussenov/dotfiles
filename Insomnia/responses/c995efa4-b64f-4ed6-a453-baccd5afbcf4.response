@@ -1,0 +1,4 @@
+{"_id":"013238ca-b13a-4f49-93dc-43f295dbc431","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","type":"open","timestamp":1679824699821}
+{"_id":"5d03d375-0b59-4c61-9d72-f51df670bbda","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","data":"{\"users\": {\"creator\": \"maxim\"}}","type":"message","direction":"INCOMING","timestamp":1679824699862}
+{"_id":"de2bde00-01c0-417b-b99e-06ea4a4a05f5","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","data":"start game!","type":"message","direction":"INCOMING","timestamp":1679824704635}
+{"_id":"189f8e2d-acb3-44db-9748-9f4581c424f2","requestId":"ws-req_f1850cad7cf945e281057f2ebb398eab","code":1012,"reason":"","type":"close","wasClean":true,"timestamp":1679824728311}

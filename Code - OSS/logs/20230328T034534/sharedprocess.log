@@ -1,0 +1,8 @@
+2023-03-28 03:45:39.289 [info] Starting worker process with pid 11177 (type: fileWatcher, window: 1).
+2023-03-28 03:45:43.600 [info] Getting Manifest... vue.volar
+2023-03-28 03:45:45.236 [info] Installing extension: vue.volar
+2023-03-28 03:45:50.118 [info] Extracted extension to /home/abu/.vscode-oss/extensions/.1208c09c-766d-4fab-b3f7-b2e773377cc5: vue.volar
+2023-03-28 03:45:50.132 [info] Renamed to /home/abu/.vscode-oss/extensions/vue.volar-1.3.8-universal
+2023-03-28 03:45:50.134 [info] Extracting extension completed. vue.volar
+2023-03-28 03:45:50.149 [info] Extension installed successfully: vue.volar
+2023-03-28 03:45:50.152 [info] Marked extension as uninstalled vue.volar-1.3.6-universal

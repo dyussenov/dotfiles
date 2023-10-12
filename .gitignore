@@ -4,7 +4,9 @@
 !/polybar
 !/sxhkd
 !/wallpapers
+!/rofi
 
 !alacritty.toml
 !.gitignore
 !picom.conf
+!readme.md

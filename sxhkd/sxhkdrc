@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show run
+	rofi -show drun
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -122,3 +122,9 @@ super + {Left,Down,Up,Right}
 
 Print
 	flameshot gui
+
+Caps_Lock
+	setxkbmap -layout us,ru -option grp:ctrl_caps_toggle
+
+Scroll_Lock
+	true

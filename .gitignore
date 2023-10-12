@@ -1,0 +1,10 @@
+*
+
+!/bspwm
+!/polybar
+!/sxhkd
+!/wallpapers
+
+!alacritty.toml
+!.gitignore
+!picom.conf

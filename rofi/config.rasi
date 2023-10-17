@@ -1,0 +1,12 @@
+configuration {
+    // Внешний вид
+    show-icons: true;    // Показывать значки приложений
+    sidebar-mode: true;  // Включить режим боковой панели
+    font: "Roboto 10";   // Шрифт и его размер
+
+    // Поведение
+    combi-modi: "window,run,ssh"; // Режимы (например, окна, приложения, SSH)
+    modi: "run";                  // Режим по умолчанию
+}
+
+@theme "Arc-Dark"

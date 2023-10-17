@@ -4,7 +4,8 @@
 !/polybar
 !/sxhkd
 !/wallpapers
-!/rofi/*
+!/rofi
+!/nitrogen
 
 !alacritty.toml
 !.gitignore

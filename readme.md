@@ -48,3 +48,8 @@
 
 ## Install zsh and oh my zah
 
+## Touchpad
+
+- libinput
+
+- libinput-gestures https://github.com/bulletmark/libinput-gestures

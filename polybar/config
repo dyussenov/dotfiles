@@ -13,7 +13,7 @@ disabled = #707880
 height = 20pt
 
 modules-left = xworkspaces xwindow
-modules-right = xkeyboard battery cpu date
+modules-right = xkeyboard battery cpu memory-info temperature date
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -81,7 +81,13 @@ format-prefix = "CPU "
 format-prefix-foreground = ${colors.primary}
 label = %percentage:2%%
 
-
+[module/memory-info]
+type = custom/script
+exec = ~/.config/polybar/scripts/ram.sh
+click-left = ~/.config/polybar/scripts/ram.sh --popup
+format-prefix = " "
+format-prefix-foreground = ${colors.one}
+format-underline = ${colors.one}
 
 [module/date]
 type = internal/date
@@ -93,6 +99,18 @@ date-alt = %Y-%m-%d %H:%M:%S
 label = %date%
 label-foreground = ${colors.primary}
 
+[module/temperature]
+type = internal/temperature
+base-temperature=20
+warn-temperature=75
+format = <ramp> <label>
+label = %temperature-c%
+label-warn-foreground=#f00
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+format-underline = ${colors.three}
+ramp-foreground = ${colors.three}
 
 
 [module/battery]

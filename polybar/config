@@ -7,13 +7,11 @@ secondary = #C363FF
 alert = #A54242
 disabled = #707880
 
-
-
 [bar/default]
 height = 20pt
 
 modules-left = xworkspaces xwindow
-modules-right = xkeyboard battery cpu memory-info temperature date
+modules-right = xkeyboard battery cpu memory-info temperature pulseaudio date
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -39,6 +37,10 @@ cursor-scroll = ns-resize
 
 enable-ipc = true
 
+[module/pulseaudio]
+type = internal/pulseaudio
+use-ui-max = true
+interval = 5
 
 [module/xkeyboard]
 type = internal/xkeyboard

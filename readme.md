@@ -48,6 +48,31 @@
 
 ## Install zsh and oh my zah
 
+- Install zsh using package manager (don't forget to check installation `zsh --version`):
+
+    ```bash
+    pacman -S zsh
+    ```
+
+- Set it as default shell and log out:
+
+    ```bash
+    chsh -s $(which zsh)
+    ```
+
+- Install oh my zsh:
+
+    ```bash
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    ```
+
+- Configure theme adding to `~/.zshrc` following line:
+
+    ```
+    THEME=crcandy
+    ```
+
+
 ## Touchpad
 
 - libinput

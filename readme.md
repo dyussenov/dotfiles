@@ -46,7 +46,7 @@
 
 ## Install Alacritty
 
-## Install zsh and oh my zah
+## Install zsh and oh my zsh
 
 - Install zsh using package manager (don't forget to check installation `zsh --version`):
 
